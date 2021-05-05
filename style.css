@@ -1,0 +1,16 @@
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+.line {
+    fill: none;
+    stroke: lightblue;
+    stroke-width: 3;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: blue;
+    stroke: rgb(100, 135, 146);
+}
