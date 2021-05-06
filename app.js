@@ -61,12 +61,25 @@ svg.selectAll(".dot")
     .attr("cy", (d) => { return yScale(d.base.HP) })
     .attr("r", 5) //Radius vergeben
     .on("mouseover", function(d,i) {
-        d3.select(this).attr("r", 15);
+        d3.select(this).attr("r", 15); //.dot wird 15px groß on hover
+        console.log(i.base.HP);
+        div.transition().duration(50).style("opacity", 1);
+        div.html(i.base.HP)
+        .style("left", (width/2) + margin.left + "px")
+        .style("top", "150px");	
     })
     .on("mouseout", function(d,i) {
-        d3.select(this).attr("r", 5);
+        d3.select(this).attr("r", 5); //.dot wieder normal on hover out
+        div.transition().duration(50).style("opacity", 0);
     })
 
+
+//Wert bei Hover auf .dot
+var div = d3.select("body").append("div")
+    .classed("tooltip", true)
+    .style("opacity", 0); //Unsichtbar 
+
+//X Achsen Label
 svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "start")
@@ -75,6 +88,7 @@ svg.append("text")
     .text("pokemon-id")
     .style("font-size", "24px")
 
+//Y Achsen Label
 svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "start")
