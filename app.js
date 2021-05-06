@@ -1,4 +1,4 @@
-d3.json("pokemon.json").then(function(data) {
+d3.json("data/pokemon.json").then((data) => {
     
 //Body Werte definieren
 var margin = {top: 50, right: 50, bottom: 50, left: 50} //Rand
@@ -41,33 +41,38 @@ svg.append("g")//Neue SVG gruppe auswählen
 
 //Linie generieren
 var line = d3.line()
-    .x(function(d,i) { return xScale(i); }) //X Werte
-    .y(function(d) { return yScale(d.base.HP); }) //Y Werte
+    .x((d,i) => { return xScale(i); }) //X Werte
+    .y((d) => { return yScale(d.base.HP); }) //Y Werte
     .curve(d3.curveMonotoneX)
 
 //Linie erzeugen und dem Graphen hinzufügen
 svg.append("path")
     .datum(data) //Daten aufrufen
-    .attr("class", "line") //CSS style für den Graph
-    .attr("d", line); // Linie generieren
+    .classed("line", true) //CSS Style class für den Graph
+    .attr("d", line) // Linie generieren
 
 //Punkte erzeugen und dem graphen hinzufügen
 svg.selectAll(".dot")
     .data(data)
     .enter()
     .append("circle") // SVG Kreis erstellen
-    .attr("class", "dot") //CSS Style der Punkte vergeben
-    .attr("cx", function(d, i) { return xScale(i) })
-    .attr("cy", function(d) { return yScale(d.base.HP) })
+    .classed("dot", true) //CSS Style class für die Punkte
+    .attr("cx", (d, i) => { return xScale(i) })
+    .attr("cy", (d) => { return yScale(d.base.HP) })
     .attr("r", 5) //Radius vergeben
+    .on("mouseover", function(d,i) {
+        d3.select(this).attr("r", 15);
+    })
+    .on("mouseout", function(d,i) {
+        d3.select(this).attr("r", 5);
+    })
 
 svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "start")
     .attr("x", 10)
-    
-    .attr("y", height+30)
-    .text("pokemon")
+    .attr("y", height+40)
+    .text("pokemon-id")
     .style("font-size", "24px")
 
 svg.append("text")
@@ -77,4 +82,5 @@ svg.append("text")
     .attr("y", 0)
     .text("HP")
     .style("font-size", "24px")
+
 });
