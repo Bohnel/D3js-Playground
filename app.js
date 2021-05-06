@@ -62,15 +62,14 @@ svg.selectAll(".dot")
     .attr("r", 5) //Radius vergeben
     .on("mouseover", function(d,i) {
         d3.select(this).attr("r", 15); //.dot wird 15px groß on hover
-        console.log(i.base.HP);
-        div.transition().duration(50).style("opacity", 1);
-        div.html(i.base.HP)
-        .style("left", (width/2) + margin.left + "px")
-        .style("top", "150px");	
+        div.transition().duration(200).style("opacity", 1); //tooltip wird sichtbar mit transition
+        div.html("Name: " + i.name.english + "<br> HP: " + i.base.HP) //tooltip wird HP wert übergeben
+            .style("left", (width/2) + margin.left + "px") //tooltip wird mittig ausgerichtet
+            .style("top", "150px");	
     })
     .on("mouseout", function(d,i) {
         d3.select(this).attr("r", 5); //.dot wieder normal on hover out
-        div.transition().duration(50).style("opacity", 0);
+        div.transition().duration(200).style("opacity", 0);
     })
 
 
