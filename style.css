@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 body {
-    background-color: beige;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 220);
     text-align: center;
+    font-family: 'Karla', sans-serif;
 }
 
 .line {
@@ -35,9 +41,9 @@ body {
     position: absolute;
     text-align: center;
     padding: .5rem;
-    background: #FFFFFF;
+    background: rgb(230, 230, 220);
     color: #313639;
-    border: 1px solid #313639;
+    border: none;
     border-radius: 8px;
     pointer-events: none;
     font-size: 1.3rem;
