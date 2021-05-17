@@ -12,7 +12,8 @@ let tree = d3.tree()
     .size([width - margin, height - margin - 20]);
 
 //Load JSON
-d3.json("/data/flare.json").then((data) => {
+// d3.json("/data/flare.json").then((data) => {
+d3.json("/data/hierarchy.json").then((data) => {
 
     //Load data as a hierarchy
     let treeRoot = d3.hierarchy(data)

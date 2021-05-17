@@ -1,25 +1,32 @@
 {
     "name": "Max",
+    "size": 1000,
     "children": [{
         "name": "Sylvia",
+        "size": 705,
         "children": [{
             "name": "Craig"
                 },
                 {
-                    "name": "Robin"
+                    "name": "Robin",
+                    "size": 105
                 },
                 {
-                    "name": "Anna"
+                    "name": "Anna",
+                    "size": 25
                 }
                 ]
                 },
                 {
             "name": "David",
+            "size": 40,
                 "children": [{
-                    "name": "Jeff"
+                    "name": "Jeff",
+                    "size": 5
                 },
                 {
-                    "name": "Buffy"
+                    "name": "Buffy",
+                    "size": 200
                 }
             ]
         }
