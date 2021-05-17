@@ -8,7 +8,19 @@ var yScale = d3.scaleLinear()
     .domain([0, 280])
     .range([height - margin.bottom - margin.top, 0]);
 
-d3.json("data/pokemon.json").then((data) => {
+let j = 0;
+function updateData() {
+    if (j === 0) {
+        HP();
+        j = 1;
+    } else {
+        AttackData();
+        j = 0;
+    }
+}
+
+function HP() {
+d3.json("/data/pokemon.json").then((data) => {
 
 //X Achse definieren
 var xScale = d3.scaleLinear()
@@ -16,7 +28,8 @@ var xScale = d3.scaleLinear()
     .domain([0, data.length])
 
 //SVG erzeugen
-var svg = d3.select("body").append("svg")
+var svg = d3.select("body")
+    .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height)
     .append("g")
@@ -87,10 +100,11 @@ svg.append("text")
     .text("HP")
     .style("font-size", "24px")
 });
+}
 
 //Daten zu Attack wechseln
 function AttackData() {
-    d3.json("data/pokemon.json").then((data) => {
+    d3.json("/data/pokemon.json").then((data) => {
 
     var xScale = d3.scaleLinear()
         .range([0, width - margin.right])
@@ -112,3 +126,5 @@ function AttackData() {
     
     document.querySelector("button").innerHTML = "Change to HP value";
 })};
+
+updateData();
