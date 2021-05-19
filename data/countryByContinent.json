@@ -1,0 +1,105 @@
+{   "world": "world",
+    "children": [{
+        "name": "Europe",
+        "size": 746400000,
+        "children": [{
+                "name": "Russia",
+                "size": 146135231
+            },{
+                "name": "Turkey",
+                "size": 85539592
+            },{
+                "name": "Germany",
+                "size": 84268153
+            },{
+                "name": "France",
+                "size": 65395062
+            },{
+                "name": "United Kingdom",
+                "size": 68274503
+            },{
+                "name": "Italy",
+                "size": 60403635
+            },{
+                "name": "Spain",
+                "size": 46820334
+            },{
+                "name": "Ukraine",
+                "size": 43517817
+            },{
+                "name": "Poland",
+                "size": 37823585
+            },{
+                "name": "Romania",
+                "size": 19098423
+            }]
+    },{
+        "name": "Asia",
+        "size": 4561000000,
+        "children": [{
+                "name": "China",
+                "size": 1387160730
+            },{
+                "name": "India",
+                "size": 1324009090
+            },{
+                "name": "Indonesia",
+                "size": 255462000
+            },{
+                "name": "Pakistan",
+                "size": 202785000
+            },{
+                "name": "Bangladesh",
+                "size": 158762000
+            },{
+                "name": "Russia",
+                "size": 144031000
+            },{
+                "name": "Japan",
+                "size": 126891000
+            },{
+                "name": "Phillippines",
+                "size": 100699395
+            },{
+                "name": "Vietnam",
+                "size": 96208984
+            },{
+                "name": "Iran",
+                "size": 82000000
+            }]
+    },{
+        "name": "Africa",
+        "size": 1216000000,
+        "children": [{
+                "name": "Nigeria",
+                "size": 210907727
+            },{
+                "name": "Ethiopia",
+                "size": 117657477
+            },{
+                "name": "Egypt",
+                "size": 104194266
+            },{
+                "name": "DR Congo",
+                "size": 92158626
+            },{
+                "name": "South Africa",
+                "size": 60027841
+            },{
+                "name": "Tanzania",
+                "size": 61330791
+            },{
+                "name": "Kenya",
+                "size": 54872799
+            },{
+                "name": "Uganda",
+                "size": 47322854
+            },{
+                "name": "Algeria",
+                "size": 44649839
+            },{
+                "name": "Sudan",
+                "size": 44785232
+            }]
+    }]  
+}

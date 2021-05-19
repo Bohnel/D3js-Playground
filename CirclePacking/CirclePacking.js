@@ -1,19 +1,21 @@
 //Body definition//
 
-let width = 800, height = 600;
+let width = 700, height = 700;
+let margin = 50;
 
 let canvas = d3.select("body").append("svg")
   .attr("width", width)
   .attr("height", height)
   .append("g")
-    .attr("transform", "translate(50,50)");
+    .attr("class", "world");
+    // .attr("transform", "translate(50,50)");
 
 var pack = d3.pack()
-  .size([width, height - 50])
+  .size([width, height])
   .padding(1);
 
 //Load JSON//
-d3.json("/data/hierarchy.json").then((root) => {
+d3.json("/data/countryByContinent.json").then((root) => {
 
   //daten sortieren 
   root = d3.hierarchy(root)
@@ -29,7 +31,7 @@ d3.json("/data/hierarchy.json").then((root) => {
       .attr("transform", (d) => { return "translate(" + d.x + "," + d.y + ")"; });
   //Define label
   node.append("title")
-  .text(function(d) { return d.data.name + "\n" + d.data.size; });
+  .text(function(d) { return d.data.name + "\n" + String(d.data.size).substring(0,3); });
   //Define circle
   node.append("circle")
       .attr("r", (d) => { return d.r; });
