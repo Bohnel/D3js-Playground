@@ -101,5 +101,39 @@
                 "name": "Sudan",
                 "size": 44785232
             }]
+    },{
+        "name": "North America",
+        "size": 587615000,
+        "children": [{
+                "name": "USA",
+                "size": 332787736
+            },{
+                "name": "Mexico",
+                "size": 130212725
+            },{
+                "name": "Canada",
+                "size": 38050141
+            },{
+                "name": "Guatemala",
+                "size": 18224438
+            },{
+                "name": "Cuba",
+                "size": 11324768
+            },{
+                "name": "Haiti",
+                "size": 11532159
+            },{
+                "name": "Dominican Republic",
+                "size": 10951773
+            },{
+                "name": "Honduras",
+                "size": 10050555
+            },{
+                "name": "Nicaragua",
+                "size": 6698165
+            },{
+                "name": "El Salvador",
+                "size": 6515512
+            }]
     }]  
 }
