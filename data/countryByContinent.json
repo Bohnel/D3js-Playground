@@ -1,4 +1,4 @@
-{   "world": "world",
+{   "name": "world",
     "children": [{
         "name": "Europe",
         "size": 746400000,

@@ -12,11 +12,10 @@ let canvas = d3.select("body").append("svg")
 let pack = d3.pack()
   .size([width, height])
   .padding(5)
-  
 
 //Load JSON//
 d3.json("/data/countryByContinent.json").then((root) => {
-
+  console.log(root);
   //daten sortieren 
   root = d3.hierarchy(root)
     .sum((d) => { return d.size; })
@@ -27,7 +26,13 @@ d3.json("/data/countryByContinent.json").then((root) => {
     .data(pack(root).descendants())
     .enter()
     .append("g")
-      .attr("class", (d) => { return d.children ? "node" : "leaf node"; })
+      // .attr("class", (d) => { return d.children ? "node" : "leaf node"; })
+      .attr("class", (d) => { if ( d.data.name === "Europe" || d.data.name === "Asia" 
+                            || d.data.name === "Africa" || d.data.name === "North America" || d.data.name === "world") {
+        return "continent node"
+      } else {
+        return "leaf node";
+      }})
       .attr("transform", (d) => { return "translate(" + d.x + "," + d.y + ")"; })
 
   //Define label
