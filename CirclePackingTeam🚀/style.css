@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+circle {
+    stroke: white;
+    fill: #05668D;
+    opacity: 0.3;
+    stroke-width: 2px;
+}
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: .5rem;
+    background: rgb(230, 230, 220);
+    color: #313639;
+    border: none;
+    border-radius: 8px;
+    pointer-events: none;
+    font-size: 1.3rem;
+}
