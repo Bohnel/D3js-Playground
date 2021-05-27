@@ -1,10 +1,12 @@
-{   "name": "world",
+{   
+    "name": "world",
+    "size": 7770000000,
     "children": [{
         "name": "Europe",
         "size": 746400000,
         "children": [{
                 "name": "Russia",
-                "size": 146135231
+                "size": 144526636
             },{
                 "name": "Turkey",
                 "size": 85539592

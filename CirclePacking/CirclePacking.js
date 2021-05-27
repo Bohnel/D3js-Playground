@@ -1,5 +1,4 @@
 //Body definition//
-
 let width = 700, height = 700
 let margin = 50
 
@@ -15,6 +14,7 @@ let pack = d3.pack()
 
 //Load JSON//
 d3.json("/data/countryByContinent.json").then((root) => {
+  
   console.log(root);
   //daten sortieren 
   root = d3.hierarchy(root)
@@ -35,10 +35,10 @@ d3.json("/data/countryByContinent.json").then((root) => {
       }})
       .attr("transform", (d) => { return "translate(" + d.x + "," + d.y + ")"; })
 
-  //Define label
+  //Define hover
   node.append("title")
     .text((d) => { 
-      return d.data.name + "\n" + String(d.data.size).substring(0,3); 
+      return d.data.name + "\n" + d.data.size; 
     })
 
   //Define circle

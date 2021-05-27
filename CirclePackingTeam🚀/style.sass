@@ -1,0 +1,40 @@
+$mainColor: #05668D
+$border: #fff
+$borderWidth: 2px
+$text: #313131
+$background: #fff8dc
+$radius: 10px
+$textSize: 1.3rem
+
+body
+    display: flex
+    flex-direction: column
+    margin: 0
+    padding: 0
+    align-items: center
+    justify-content: center
+
+circle
+    stroke: $border
+    fill: $mainColor
+    opacity: .3
+    stroke-width: $borderWidth
+
+.tooltip
+    position: absolute
+    text-align: center
+    padding: 0.5rem
+    background: $background
+    color: $text
+    border-radius: $radius
+    font-size: $textSize
+
+svg
+    display: flex
+    // flex-direction: column
+    // justify-content: center
+    // align-items: center
+
+title
+    color: $text
+    font-size: $textSize
