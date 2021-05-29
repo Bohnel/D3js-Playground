@@ -1,16 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap");
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 10;
   padding: 0;
   align-items: center;
-  justify-content: center;
+  font-family: Asap, sans-serif;
+  background: linear-gradient(45deg, #EDF6F9 0%, #FFF0EB 100%);
 }
 
 circle {
-  stroke: #fff;
-  fill: #05668D;
-  opacity: 0.3;
+  fill: #006D77;
   stroke-width: 2px;
 }
 
@@ -18,19 +18,21 @@ circle {
   position: absolute;
   text-align: center;
   padding: 0.5rem;
-  background: #fff8dc;
+  background: #EDF6F9;
   color: #313131;
   border-radius: 10px;
   font-size: 1.3rem;
-}
-
-svg {
-  display: flex;
+  user-select: none;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 title {
   color: #313131;
   font-size: 1.3rem;
+}
+
+.leaf {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

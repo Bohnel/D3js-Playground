@@ -1,0 +1,85 @@
+{
+    "name": "world",
+    "children": [
+        {
+            "name": "Europe",
+            "value": 746400000,
+            "children": [
+                {
+                    "name": "Russia",
+                    "value": 144526636
+                },
+                {
+                    "name": "Turkey",
+                    "value": 85539592
+                },
+                {
+                    "name": "Germany",
+                    "value": 84268153
+                },
+                {
+                    "name": "France",
+                    "value": 65395062
+                }
+            ]
+        },
+        {
+            "name": "Asia",
+            "value": 4561000000,
+            "children": [
+                {
+                    "name": "China",
+                    "value": 1387160730
+                },
+                {
+                    "name": "India",
+                    "value": 1324009090
+                },
+                {
+                    "name": "Indonesia",
+                    "value": 255462000
+                },
+                {
+                    "name": "Pakistan",
+                    "value": 202785000
+                }
+            ]
+        },
+        {
+            "name": "Africa",
+            "value": 1216000000,
+            "children": [
+                {
+                    "name": "Nigeria",
+                    "value": 210907727
+                },
+                {
+                    "name": "Ethiopia",
+                    "value": 117657477
+                },
+                {
+                    "name": "Egypt",
+                    "value": 104194266
+                }
+            ]
+        },
+        {
+            "name": "North America",
+            "value": 587615000,
+            "children": [
+                {
+                    "name": "USA",
+                    "value": 332787736
+                },
+                {
+                    "name": "Mexico",
+                    "value": 130212725
+                },
+                {
+                    "name": "Canada",
+                    "value": 38050141
+                }
+            ]
+        }
+    ]
+}
