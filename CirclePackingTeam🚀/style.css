@@ -2,8 +2,9 @@
 body {
   display: flex;
   flex-direction: column;
-  margin: 10;
+  margin: 0;
   padding: 0;
+  height: 100vh;
   align-items: center;
   font-family: Asap, sans-serif;
   background: linear-gradient(45deg, #EDF6F9 0%, #FFF0EB 100%);
@@ -12,6 +13,11 @@ body {
 circle {
   fill: #006D77;
   stroke-width: 2px;
+  cursor: pointer;
+}
+
+#main {
+  cursor: default;
 }
 
 .tooltip {
@@ -24,6 +30,7 @@ circle {
   font-size: 1.3rem;
   user-select: none;
   box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
 }
 
 title {
@@ -31,8 +38,13 @@ title {
   font-size: 1.3rem;
 }
 
-.leaf {
-  cursor: pointer;
+.label {
+  pointer-events: none;
+}
+
+.continent {
+  font-size: 2em;
+  font-weight: 800;
 }
 
 /*# sourceMappingURL=style.css.map */

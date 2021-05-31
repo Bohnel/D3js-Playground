@@ -11,8 +11,9 @@ $textSize: 1.3rem
 body
     display: flex
     flex-direction: column
-    margin: 10
+    margin: 0
     padding: 0
+    height: 100vh
     align-items: center
     font-family: Asap, sans-serif
     background: linear-gradient(45deg, $secondary 0%, $gradient 100%)
@@ -20,6 +21,10 @@ body
 circle
     fill: $primary
     stroke-width: $borderWidth
+    cursor: pointer
+
+#main
+    cursor: default
 
 .tooltip
     position: absolute
@@ -31,10 +36,18 @@ circle
     font-size: $textSize
     user-select: none
     box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2)
+    pointer-events: none
 
 title
     color: $text
     font-size: $textSize
 
-.leaf
-    cursor: pointer
+// .leaf
+//     cursor: pointer
+
+.label
+    pointer-events: none
+
+.continent
+    font-size: 2em
+    font-weight: 800

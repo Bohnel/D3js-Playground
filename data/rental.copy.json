@@ -1,5 +1,5 @@
 {
-    "name": "world",
+    "main": "main",
     "children": [
         {
             "name": "Europe",
