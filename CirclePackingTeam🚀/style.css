@@ -51,4 +51,8 @@ title {
   stroke-opacity: 1;
 }
 
+.node--leaf {
+  pointer-events: none;
+}
+
 /*# sourceMappingURL=style.css.map */
