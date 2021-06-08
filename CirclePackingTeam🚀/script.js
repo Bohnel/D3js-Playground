@@ -52,6 +52,7 @@ function drawViz(data){
         .enter()
         .append("g") //svg group for label
         .append('circle')
+        .attr("class", (d) => { if ( d.children ) { return "continentCircle" } else { return "countryCircle" }})
         .attr("fill-opacity", ".3")
         .attr("id", (d) => { if (d.data.main === "main") { return "main" }})
         // .attr("class", (d) => { return d.children ? "node" : "leaf"; })
@@ -104,24 +105,27 @@ function drawViz(data){
     //Show tooltip and add circle stroke
     function handleMouseOver(d,i) {
         if (clicked === false) {
-        d3.select(this)
-            .filter((d) => { return d.children })
-            .transition()
-            .duration(100)
-            .attr("stroke", "#EDF6F9")
-            .attr("stroke-opacity", 1)
-            .attr("fill-opacity", .4)
-            
+            d3.select(this)
+                // .filter((d) => { return d.children })
+                .filter(".continentCircle")
+                .transition()
+                .duration(100)
+                .attr("stroke", "#EDF6F9")
+                .attr("stroke-opacity", 1)
+                .attr("fill-opacity", .4)
         } else {
             d3.select(this)
-            .filter((d) => { return !d.children })
-            .transition()
-            .duration(100)
-            .attr("stroke", "#EDF6F9")
-            .attr("stroke-opacity", 1)
-            .attr("fill-opacity", .4)
-            tooltip.transition().duration(200).style("opacity", .9)
-            tooltip.html("name: " + i.data.name + "</br>" + "amount: " + i.data.value)
+                // .filter((d) => { return !d.children })
+                .filter(".countryCircle")
+                .transition()
+                .duration(100)
+                .attr("stroke", "#EDF6F9")
+                .attr("stroke-opacity", 1)
+                .attr("fill-opacity", .4)
+            if (d3.select(this).attr("class") === "countryCircle") {
+                tooltip.transition().duration(200).style("opacity", .9)
+                tooltip.html("name: " + i.data.name + "</br>" + "amount: " + i.data.value)
+            }
         }
     }
 
