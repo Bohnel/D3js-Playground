@@ -23,7 +23,7 @@ circle {
 .tooltip {
   position: absolute;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.5em;
   background: #EDF6F9;
   color: #313131;
   border-radius: 10px;
@@ -43,8 +43,12 @@ title {
 }
 
 .continent {
-  font-size: 2em;
   font-weight: 800;
+}
+
+.node:hover {
+  stroke: white;
+  stroke-opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

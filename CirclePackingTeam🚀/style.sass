@@ -29,7 +29,7 @@ circle
 .tooltip
     position: absolute
     text-align: center
-    padding: 0.5rem
+    padding: .5em
     background: $secondary
     color: $text
     border-radius: $radius
@@ -49,5 +49,12 @@ title
     pointer-events: none
 
 .continent
-    font-size: 2em
     font-weight: 800
+
+.node
+    &:hover
+        stroke: white
+        stroke-opacity: 1
+
+// .node--leaf 
+//     pointer-events: none

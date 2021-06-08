@@ -1,0 +1,51 @@
+[{
+    "category": "business",
+    "date": "01/10/2011",
+    "city": "New York"
+    },
+    {
+    "category": "holidays",
+    "date": "02/10/2011",
+    "city": "New York"
+    },
+    {
+    "category": "business",
+    "date": "03/10/2011",
+    "city": "New York"
+    },
+    {
+    "category": "family",
+    "date": "03/10/2011",
+    "city": "New York"
+    },
+    {
+    "category": "holidays",
+    "date": "01/10/2011",
+    "city": "San Francisco"
+    },
+    {
+    "category": "family",
+    "date": "02/10/2011",
+    "city": "San Francisco"
+    },
+    {
+    "category": "holidays",
+    "date": "03/10/2011",
+    "city": "San Francisco"
+    },
+    {
+    "category": "family",
+    "date": "01/10/2011",
+    "city": "Austin"
+    },
+    {
+    "category": "holidays",
+    "date": "02/10/2011",
+    "city": "Austin"
+    },
+    {
+    "category": "family",
+    "date": "03/10/2011",
+    "city": "Austin"
+    }
+    ]

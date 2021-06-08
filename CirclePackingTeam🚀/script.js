@@ -52,10 +52,11 @@ function drawViz(data){
         .enter()
         .append("g") //svg group for label
         .append('circle')
-        .attr("fill-opacity", ".3")
-        .attr("id", (d) => { if (d.data.main === "main") { return "main" }})
-        // .attr("class", (d) => { return d.children ? "node" : "leaf"; })
-        // Tooltips bei Mausbewegung
+            .attr("fill-opacity", ".3")
+            .attr("id", (d) => { if (d.data.main === "main") { return "main" }})
+            // .attr("class", (d) => { return d.children ? "node" : "leaf"; })
+            .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+            // Tooltips bei Mausbewegung
             .on("mouseover", handleMouseOver)
             .on("mousemove", () => { tooltip.style("top", (event.pageY) + -65 + "px").style("left", (event.pageX) + 10 + "px") })
             .on("mouseout", handleMouseOut)
@@ -68,12 +69,12 @@ function drawViz(data){
         g.selectAll("g")
             .filter((d) => { return d.children })
             .append("text")
-            .attr("class", "continent label")
-            .text((d) => { return d.data.name })
-            .attr("x", (d) => { return d.x })
-            .attr("y", (d) => { return d.y + 5 })
-            .attr("text-anchor", "middle")
-            .attr("font-size", ".8em")
+                .attr("class", "continent label")
+                .text((d) => { return d.data.name })
+                .attr("x", (d) => { return d.x })
+                .attr("y", (d) => { return d.y + 5 })
+                .attr("text-anchor", "middle")
+                .attr("font-size", "2em")
     }
 
     //Show labels on click
@@ -85,15 +86,15 @@ function drawViz(data){
                 else { 
                     return d.children }})
             .append("text")
-            .attr("x", (d) => { return d.x })
-            .attr("y", (d) => { return d.y + 5 })
-            .attr("class", (d) => { if ( d.children ) { return "continent" } else { return "country label" }})
-            .text((d) => { return d.data.name })
-            .attr("font-size", 0)
-            .attr("text-anchor", "middle")
-            .transition()
-            .duration(150)
-            .attr("font-size", ".8em")
+                .attr("x", (d) => { return d.x })
+                .attr("y", (d) => { return d.y + 5 })
+                .attr("class", (d) => { if ( d.children ) { return "continent label" } else { return "country label" }})
+                .text((d) => { return d.data.name })
+                .attr("font-size", 0)
+                .attr("text-anchor", "middle")
+                .transition()
+                .duration(600)
+                .attr("font-size", (d) => { if ( d.children ) { return "2em" } else { return ".8em" }})
     }
 
     // Diagramm zeichnen
@@ -108,17 +109,16 @@ function drawViz(data){
             .filter((d) => { return d.children })
             .transition()
             .duration(100)
-            .attr("stroke", "#EDF6F9")
-            .attr("stroke-opacity", 1)
+            // .attr("stroke", "#EDF6F9")
+            // .attr("stroke-opacity", 1)
             .attr("fill-opacity", .4)
-            
         } else {
             d3.select(this)
             .filter((d) => { return !d.children })
             .transition()
             .duration(100)
-            .attr("stroke", "#EDF6F9")
-            .attr("stroke-opacity", 1)
+            // .attr("stroke", "#EDF6F9")
+            // .attr("stroke-opacity", 1)
             .attr("fill-opacity", .4)
             tooltip.transition().duration(200).style("opacity", .9)
             tooltip.html("name: " + i.data.name + "</br>" + "amount: " + i.data.value)
@@ -130,7 +130,7 @@ function drawViz(data){
         d3.select(this)
             .transition()
             .duration(300)
-            .attr("stroke-opacity", 0)
+            // .attr("stroke-opacity", 0)
             .attr("fill-opacity", .3)
             tooltip.transition().duration(200).style("opacity", 0)
     }
@@ -154,18 +154,16 @@ function drawViz(data){
                 .duration(750)
                 .attr("transform", "translate(" + vWidth / 2 + "," + vHeight / 2 
                     + ")scale()")
-            g.selectAll(".country").remove()
+            g.selectAll(".country").transition().duration(100).remove()
         } else {
             //Erster Klick
             clicked = true
+            d3.selectAll(".node--leaf").classed("node--leaf", false)
             g.transition()
                 .ease(d3.easeExp,10)
                 .duration(750)
                 .attr("transform", "translate(" + vWidth / 2 + "," + vHeight / 2 
                     + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-            vSlices.transition()
-                .duration(750)
-                // .style("stroke-width", 1.5 / k + "px");
             g.selectAll(".continent").remove()
         }
     } 
