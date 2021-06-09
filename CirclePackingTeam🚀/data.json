@@ -1,0 +1,40 @@
+{
+    "main": "main",
+    "mainName": "Rental",
+    "children": [{
+            "name": "leased",
+            "children": [{
+                    "name": "odyssey",
+                    "value": 20
+                },
+                {
+                    "name": "maxima",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "traded",
+            "children": [{
+                "name": "chevette",
+                "value": 10
+            }]
+        },
+        {
+            "name": "owned",
+            "children": [{
+                    "name": "pilot",
+                    "value": 40
+                },
+                {
+                    "name": "325ci",
+                    "value": 40
+                },
+                {
+                    "name": "accord",
+                    "value": 20
+                }
+            ]
+        }
+    ]
+}
