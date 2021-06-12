@@ -15,7 +15,7 @@ var div = d3.select("body").append("div")
     .style("opacity", 0);
 
 // Daten aus der JSON Datei laden und Zeichnen Funktion aufrufen
-d3.json('data.json').then((data) => {
+d3.json("/data/CountriesByContinent.json").then((data) => {
     //größten Kreis als Wurzel abspeichern
     root = d3.pack(data);
     // Fokus auf dem größten Kreis
@@ -30,10 +30,12 @@ function drawViz(data) {
     let vLayout = d3.pack().size([vWidth - margin, vHeight - margin]).padding(15);
 
     // Größten Kreis erzeugen indem alle untere Kindervalues aufsummiert werden
-    let vRoot = d3.hierarchy(data).sum((d) => {
-        console.log("Sum-Funktion", d.value)
-        return d.value;
-    })
+    let vRoot = d3.hierarchy(data)
+        .sum((d) => {
+            // console.log("Sum-Funktion", d.value)
+            return d.value; 
+            })
+        .sort((a,b) => { return b.value - a.value}) //only for unsorted data
 
     // Kinder erzeugen
     let vNodes = vRoot.descendants();
@@ -63,7 +65,7 @@ function drawViz(data) {
     // Funktion: größte Kreise beschriften
     function showLabelsOnInit() {
         g.selectAll("g")
-            .filter((d) => { return d.children })
+            .filter((d) => { return d.parent === vRoot })//NEU
             .append("text")
             .attr("class", "root label")
             .text((d) => { return d.data.name })
@@ -80,14 +82,14 @@ function drawViz(data) {
                 if (clicked === false) {
                     return !d.children
                 } else {
-                    return d.children
+                    return d.parent === vRoot//NEU
                 }
             })
             .append("text")
             .attr("x", (d) => { return d.x })
             .attr("y", (d) => { return d.y + 5 })
             .attr("class", (d) => { if (d.children) { return "root" } else { return "nodex label" } })
-            .text((d) => { return d.data.name })
+            .text((d) => { return d.data.name.substring(0, d.r / 4) })
             .attr("font-size", 0)
             .attr("text-anchor", "middle")
             .transition()
@@ -108,7 +110,7 @@ function drawViz(data) {
                 .filter(".rootCircle")
                 // if (d3.select(this).attr("class") === "node rootCircle") {
             if (d3.select(this).classed("rootCircle") === true) {
-                console.log("tooltip")
+                // console.log("tooltip")
                 d3.select(this).transition()
                     .duration(100)
                     // .attr("stroke", "#EDF6F9")
@@ -116,13 +118,13 @@ function drawViz(data) {
                     .attr("fill-opacity", .4)
                 div.transition().duration(200).style("opacity", .9)
                 if (i.data.value === undefined) {
-                    div.html("name: " + i.data.mainName + "</br>" + "amount: " + i.value)
+                    div.html("name: " + i.main + "</br>" + "population: " + i.value)
                 } else {
-                    div.html("name: " + i.data.name + "</br>" + "amount: " + i.data.value)
+                    div.html("name: " + i.data.name + "</br>" + "population: " + i.data.value)
                 }
             } else {
                 // if not clicked and is no rootCircle then select rootCircle
-                console.log("This", parent)
+                // console.log("This", parent)
                 d3.select(".rootCircle").transition()
                     .duration(100)
                     // .attr("stroke", "#EDF6F9")
@@ -141,7 +143,7 @@ function drawViz(data) {
                 // if (d3.select(this).attr("class") === "nodeCircle") {
             if (d3.select(this).classed("nodeCircle") === true) {
                 div.transition().duration(200).style("opacity", .9)
-                div.html("name: " + i.data.name + "</br>" + "amount: " + i.data.value)
+                div.html("name: " + i.data.name + "</br>" + "population: " + i.data.value)
             }
         }
     }
@@ -184,5 +186,9 @@ function drawViz(data) {
             clicked = true;
             g.selectAll(".root").remove()
         }
+    }
+
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 }
