@@ -12,8 +12,15 @@ body {
 
 circle {
   fill: #006D77;
-  stroke-width: 2px;
   cursor: pointer;
+}
+
+.rootCircle {
+  stroke-width: 3px;
+}
+
+.node--leaf {
+  stroke-width: 1.5px;
 }
 
 #main {
@@ -53,6 +60,16 @@ title {
 
 .node--leaf {
   pointer-events: none;
+}
+
+text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-anchor: middle;
+}
+text.nodex {
+  font-weight: 300;
+  font-size: 0.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

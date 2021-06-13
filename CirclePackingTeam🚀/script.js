@@ -1,5 +1,5 @@
 // Fenstergröße Layout definieren
-const vWidth = 800;
+const vWidth = window.innerWidth;
 const vHeight = 800;
 const margin = 50;
 let clicked = false;
@@ -27,7 +27,7 @@ d3.json("/data/CountriesByContinent.json").then((data) => {
 // Zeichnen Funktion
 function drawViz(data) {
     // Größten Kreis Layout definieren
-    let vLayout = d3.pack().size([vWidth - margin, vHeight - margin]).padding(15);
+    let vLayout = d3.pack().size([vWidth - margin, vHeight - margin]).padding(5);
 
     // Größten Kreis erzeugen indem alle untere Kindervalues aufsummiert werden
     let vRoot = d3.hierarchy(data)
@@ -87,14 +87,14 @@ function drawViz(data) {
             })
             .append("text")
             .attr("x", (d) => { return d.x })
-            .attr("y", (d) => { return d.y + 5 })
+            .attr("y", (d) => { return d.y + 2 })
             .attr("class", (d) => { if (d.children) { return "root" } else { return "nodex label" } })
-            .text((d) => { return d.data.name.substring(0, d.r / 4) })
-            .attr("font-size", 0)
-            .attr("text-anchor", "middle")
+            .text((d) => { return d.data.name.substring(0, d.r / 2) })
+            // .attr("font-size", 0)
+            // .attr("text-anchor", "middle")
             .transition()
             .duration(150)
-            .attr("font-size", ".8em")
+            // .attr("font-size", ".8em")
     }
 
     // Diagramm zeichnen
@@ -118,9 +118,9 @@ function drawViz(data) {
                     .attr("fill-opacity", .4)
                 div.transition().duration(200).style("opacity", .9)
                 if (i.data.value === undefined) {
-                    div.html("name: " + i.main + "</br>" + "population: " + i.value)
+                    div.html("name: " + i.main + "</br>" + "population: " + numberWithCommas(i.value))
                 } else {
-                    div.html("name: " + i.data.name + "</br>" + "population: " + i.data.value)
+                    div.html("name: " + i.data.name + "</br>" + "population: " + numberWithCommas(i.data.value))
                 }
             } else {
                 // if not clicked and is no rootCircle then select rootCircle
@@ -139,11 +139,12 @@ function drawViz(data) {
                 .duration(100)
                 .attr("stroke", "#EDF6F9")
                 .attr("stroke-opacity", 1)
+                
                 .attr("fill-opacity", .4)
                 // if (d3.select(this).attr("class") === "nodeCircle") {
             if (d3.select(this).classed("nodeCircle") === true) {
                 div.transition().duration(200).style("opacity", .9)
-                div.html("name: " + i.data.name + "</br>" + "population: " + i.data.value)
+                div.html("name: " + i.data.name + "</br>" + "population: " + numberWithCommas(i.data.value))
             }
         }
     }
@@ -189,6 +190,6 @@ function drawViz(data) {
     }
 
     function numberWithCommas(x) {
-        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 }
