@@ -1,7 +1,7 @@
 /* -------------------------- Define window layout -------------------------- */
-const vWidth = window.innerWidth;
-const vHeight = 800;
 const margin = 50;
+const vWidth = window.innerWidth;
+const vHeight = window.innerHeight - margin * 2;
 let clicked = false;
 let view;
 
@@ -15,7 +15,7 @@ var tooltip = d3.select("body").append("div")
 
 /* ------------------------------------ Load data from JSON and call the function drawViz ---------- */
 
-d3.json("/CirclePackingTeam/data/dataWorld.json").then((data) => {
+d3.json("./data/dataWorld.json").then((data) => {
     // Set biggest circle as the main circle
     root = d3.pack(data);
     // Set focus on the main circle
