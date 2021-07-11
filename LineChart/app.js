@@ -20,7 +20,7 @@ function updateData() {
 }
 
 function HP() {
-d3.json("/data/pokemon.json").then((data) => {
+d3.json("../data/pokemon.json").then((data) => {
 
 //X Achse definieren
 var xScale = d3.scaleLinear()

@@ -13,7 +13,7 @@ let pack = d3.pack()
   .padding(5)
 
 //Load JSON//
-d3.json("/data/countryByContinent.json").then((root) => {
+d3.json("../data/countryByContinent.json").then((root) => {
   
   console.log(root);
   //daten sortieren 
