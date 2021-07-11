@@ -104,7 +104,7 @@ svg.append("text")
 
 //Daten zu Attack wechseln
 function AttackData() {
-    d3.json("/data/pokemon.json").then((data) => {
+    d3.json("../data/pokemon.json").then((data) => {
 
     var xScale = d3.scaleLinear()
         .range([0, width - margin.right])
