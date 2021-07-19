@@ -3,7 +3,6 @@ const vWidth = window.innerWidth;
 const vHeight = 800;
 const margin = 50;
 let clicked = false;
-let view;
 
 // Render Diagram
 let g = d3.select('svg').attr('width', vWidth).attr('height', vHeight).select('g');
@@ -15,7 +14,7 @@ var tooltip = d3.select("body").append("div")
 
 /* ------------------------------------ Load data from JSON and call the function drawViz ---------- */
 
-d3.json("/CirclePackingTeam/data/dataWorld.json").then((data) => {
+d3.json("/CirclePackingTeam/data/dataWorldAndDE.json").then((data) => {
     // Set biggest circle as the main circle
     root = d3.pack(data);
     // Set focus on the main circle
@@ -106,13 +105,12 @@ function drawViz(data) {
     function handleMouseOver(d, i) {
         if (clicked === false) {
             d3.select(this)
-                .filter(".rootCircle")
             if (d3.select(this).classed("rootCircle") === true) {
                 d3.select(this).transition()
                     .duration(100)
                     .attr("fill-opacity", .4)
                 tooltip.transition().duration(200).style("opacity", .9)
-                if (i.data.value === undefined || i.data.name === undefined) {
+                if (i.data.value === undefined) {
                     tooltip.html("name: " + i.data.name + "</br>" + "population: " + numberWithCommas(i.value))
                 } else {
                     tooltip.html("name: " + i.data.name + "</br>" + "population: " + numberWithCommas(i.data.value))
@@ -164,6 +162,7 @@ function drawViz(data) {
             d3.selectAll(".nodeCircle").classed("node--leaf", true)
             g.transition()
                 .duration(750)
+                .ease(d3.easeBackOut.overshoot(.6))
                 .attr("transform", "translate(" + vWidth / 2 + "," + vHeight / 2 + ")scale(null)")
             g.selectAll(".nodex").remove()
         } else {
@@ -171,6 +170,7 @@ function drawViz(data) {
             d3.selectAll(".node--leaf").classed("node--leaf", false)
             g.transition()
                 .duration(750)
+                .ease(d3.easePolyInOut.exponent(3))
                 .attr("transform", "translate(" + vWidth / 2 + "," + vHeight / 2 + ")scale(" + scaleAmount + ")translate(" + -x + ", " + -y + ")")
             vSlices.transition()
                 .duration(750)

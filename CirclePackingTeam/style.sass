@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap")
-
-$primary: #006D77
-$secondary: #EDF6F9
-$gradient: #FFF0EB
-$special: #E29578
-$borderWidth: 3px
-$text: #313131
-$radius: 10px
-$textSize: 1.3rem
-
+@import var
 
 body
     display: flex
@@ -22,7 +13,6 @@ body
 
 circle
     fill: $primary
-    // stroke-width: $borderWidth
     cursor: pointer
     
 .rootCircle
@@ -49,9 +39,6 @@ circle
 title
     color: $text
     font-size: $textSize
-
-// .leaf
-//     cursor: pointer
 
 .label
     pointer-events: none
