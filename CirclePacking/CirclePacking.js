@@ -15,7 +15,7 @@ let pack = d3.pack()
 //Load JSON//
 d3.json("/data/countryByContinent.json").then((root) => {
   
-  console.log(root);
+  // console.log(root);
   //daten sortieren 
   root = d3.hierarchy(root)
     .sum((d) => { return d.size; })

@@ -2,6 +2,8 @@
 const vWidth = window.innerWidth;
 const vHeight = 800;
 const margin = 50;
+const padding = 5;
+const nodeOpacity = ".3";
 let clicked = false;
 
 // Render Diagram
@@ -31,7 +33,7 @@ d3.json("/CirclePackingTeam/data/dataWorldAndDE.json").then((data) => {
  */
 function drawViz(data) {
     // Define layout for the main circle
-    let vLayout = d3.pack().size([vWidth - margin, vHeight - margin]).padding(5);
+    let vLayout = d3.pack().size([vWidth - margin, vHeight - margin]).padding(padding);
 
     // Create main circle and sum values
     let vRoot = d3.hierarchy(data)
@@ -50,7 +52,7 @@ function drawViz(data) {
         .enter()
         .append("g")
         .append('circle')
-        .attr("fill-opacity", ".3")
+        .attr("fill-opacity", nodeOpacity)
         .attr("class", function(d) { return d.parent ? d.children ? "node rootCircle" : "node node--leaf nodeCircle" : "node node--root rootCircle"; })
         // Interactions with mouse
         .on("mouseover", handleMouseOver)
