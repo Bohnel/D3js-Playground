@@ -2,18 +2,18 @@
 const vWidth = window.innerWidth - 50;
 const vHeight = window.innerHeight - 100;
 const margin = 50;
+const valueSize = '12px';
+const textMarginTop = 15;
+const valueMarginTop = 35;
+const textMarginLeft = 5;
+const colors = ["#1F1C2C","#DBD4B4","#928DAB"]
 
-/* ----------------------------- create main svg ---------------------------- */
+/* ----------------------------- Create main SVG ---------------------------- */
 const svg = d3.select("body").append("svg").attr('width', vWidth).attr('height', vHeight);
 let x = d3.scaleLinear().range([0, vHeight]);
 let y = d3.scaleLinear().range([0, vWidth]);
-var partition = d3.partition().size([vHeight, vWidth]).padding(0).round(true);
+var partition = d3.partition().size([vHeight, vWidth]);
 
-
-// Render Div for labels
-// var tooltip = d3.select("body").append("div")
-//     .classed("tooltip", true)
-//     .style("opacity", 0);
 
 /* ------------------------------------ Load data from JSON and call the function drawViz ---------- */
 
@@ -26,12 +26,12 @@ d3.json("../CirclePackingTeam/data/dataWorld.json").then((data) => {
 const drawViz = (data) => {
     
     //define color scale
-    const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
+    const color = d3.scaleOrdinal(d3.quantize(d3.interpolateHcl(colors[0], colors[1], colors[2]), data.children.length + 1));
 
     const root = d3.hierarchy(data)
+        .count() //define size by number of nodes
         .sum(d => d.value)
         .sort((a, b) => b.height - a.height || b.value - a.value)
-        // .count(); //define size by number of nodes
 
     //initialize group for each node
     const g = svg.selectAll("g").data(root.descendants()).enter().append("g");
@@ -39,7 +39,7 @@ const drawViz = (data) => {
     //define partition layout 
     const partition = d3.partition()
         .size([vHeight, vWidth])
-        .padding(1);
+        .padding(vWidth / 1000);
     
     //call partition
     partition(root);
@@ -53,22 +53,32 @@ const drawViz = (data) => {
         .style("cursor", "pointer")
         .attr("fill", d => {
             //root node
-            if (!d.depth) return "gray";
-            //each children
-            while (d.depth > 1) d = d.parent;
+            // if (!d.depth) return "gray";
+            //each child
+            while (d.depth > 1) d = d.parent; //assign color based on depth 2
                 return color(d.data.name);
         })
         .on("click", handleClick);
         
     //initialize text for each node
     const text = g.append("text")
-        .attr('x', d => d.y0)
-        .attr('y', d => d.x0 + 15)
+        .attr('x', d => d.y0 + textMarginLeft)
+        .attr('y', d => d.x0 + textMarginTop)
         .attr('fill-opacity', (d) => labelVisible(d))
-        .attr('fill', 'black')
+        .attr('fill', '#fff')
         .style("user-select", "none")
         .attr("pointer-events", "none")
         .text((d) => { return d.data.name});
+
+    const values = g.append("text")
+        .attr('x', d => d.y0 + textMarginLeft)
+        .attr('y', d => d.x0 + valueMarginTop)
+        .attr('font-size', valueSize)
+        .attr('fill-opacity', (d) => d.depth > 1 ? 0 : 1)
+        .attr('fill', '#fff')
+        .style("user-select", "none")
+        .attr("pointer-events", "none")
+        .text((d) => { return 'Population: ' + numberWithCommas(d.value)});
 
     //Zoom on Click
     function handleClick(d) {
@@ -85,13 +95,25 @@ const drawViz = (data) => {
         text
             .transition()
             .duration(750)
-            .attr("x", function(d) { return y(d.y0); })
-            .attr("y", function(d) { return x(d.x0) + 15; })
+            .attr("x", function(d) { return y(d.y0) + textMarginLeft; })
+            .attr("y", function(d) { return x(d.x0) + textMarginTop; })
+            .attr('fill-opacity', function(d) { return x(d.x1) - x(d.x0) > 30 ? 1 : 0 })
+
+        values
+            .transition()
+            .duration(750)
+            .attr("x", function(d) { return y(d.y0) + textMarginLeft; })
+            .attr("y", function(d) { return x(d.x0) + valueMarginTop; })
             .attr('fill-opacity', function(d) { return x(d.x1) - x(d.x0) > 30 ? 1 : 0 })
     }
 
     //check for rect size and define visibility
     function labelVisible(d) {
-        return d.x1 - d.x0 > 15 ? 1 : 0;
+        return d.x1 - d.x0 > textMarginTop ? 1 : 0;
+    }
+
+    // Add thousand point for values
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 }
