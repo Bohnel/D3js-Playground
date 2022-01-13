@@ -22,7 +22,7 @@ d3.select('svg')
 
 /* ------------------------------------ Load data from JSON and call the function drawViz ---------- */
 
-d3.json("/CirclePacking/data/dataWorldAndDE.json").then((data) => {
+d3.json("./data/dataWorldAndDE.json").then((data) => {
     // Set biggest circle as the main circle
     root = d3.pack(data);
     // Set focus on the main circle
