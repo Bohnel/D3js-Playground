@@ -1,0 +1,3440 @@
+{
+    "main": "world",
+    "children": [{
+            "name": "Europe",
+            "children": [{
+                    "name": "Eastern Europe",
+                    "children": [{
+                            "name": "Belarus",
+                            "value": 9443000
+                        },
+                        {
+                            "name": "Bulgaria",
+                            "value": 6897000
+                        },
+                        {
+                            "name": "Czechia",
+                            "value": 10725000
+                        }
+                    ]
+                },
+                {
+                    "name": "Northern Europe",
+                    "children": [{
+                            "name": "Channel Islands",
+                            "value": 175000
+                        },
+                        {
+                            "name": "Denmark",
+                            "value": 5813000
+                        },
+                        {
+                            "name": "Estonia",
+                            "value": 1325000
+                        },
+                        {
+                            "name": "Finland",
+                            "value": 5548000
+                        },
+                        {
+                            "name": "Iceland",
+                            "value": 343000
+                        },
+                        {
+                            "name": "Irland",
+                            "value": 4983000
+                        },
+                        {
+                            "name": "Lativa",
+                            "value": 1867000
+                        },
+                        {
+                            "name": "Lithuania",
+                            "value": 2690000
+                        },
+                        {
+                            "name": "Norway",
+                            "value": 5466000
+                        },
+                        {
+                            "name": "Sweden",
+                            "value": 10160000
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "value": 68207000
+                        }
+                    ]
+                },
+                {
+                    "name": "Western Europe",
+                    "children": [{
+                            "name": "Austria",
+                            "value": 9043000
+                        },
+                        {
+                            "name": "Belgium",
+                            "value": 11632000
+                        },
+                        {
+                            "name": "France",
+                            "value": 65426000
+                        },
+                        {
+                            "name": "Germany",
+                            "children": [{
+                                    "name": "Baden-Württemberg",
+                                    "children": [{
+                                            "name": "Aalen",
+                                            "value": "68456"
+                                        },
+                                        {
+                                            "name": "Achern",
+                                            "value": "25630"
+                                        },
+                                        {
+                                            "name": "Albstadt",
+                                            "value": "45327"
+                                        },
+                                        {
+                                            "name": "Backnang",
+                                            "value": "37253"
+                                        },
+                                        {
+                                            "name": "Baden-Baden",
+                                            "value": "55123"
+                                        },
+                                        {
+                                            "name": "Balingen",
+                                            "value": "34217"
+                                        },
+                                        {
+                                            "name": "Biberach",
+                                            "value": "32938"
+                                        },
+                                        {
+                                            "name": "Bietigheim-Bissingen",
+                                            "value": "43093"
+                                        },
+                                        {
+                                            "name": "Böblingen",
+                                            "value": "50155"
+                                        },
+                                        {
+                                            "name": "Bretten",
+                                            "value": "29412"
+                                        },
+                                        {
+                                            "name": "Bruchsal",
+                                            "value": "44644"
+                                        },
+                                        {
+                                            "name": "Bühl",
+                                            "value": "28900"
+                                        },
+                                        {
+                                            "name": "Calw",
+                                            "value": "23590"
+                                        },
+                                        {
+                                            "name": "Crailsheim",
+                                            "value": "34400"
+                                        },
+                                        {
+                                            "name": "Ditzingen",
+                                            "value": "24883"
+                                        },
+                                        {
+                                            "name": "Ehingen an der Donau",
+                                            "value": "26259"
+                                        },
+                                        {
+                                            "name": "Emmendingen",
+                                            "value": "27882"
+                                        },
+                                        {
+                                            "name": "Esslingen",
+                                            "value": "93542"
+                                        },
+                                        {
+                                            "name": "Ettlingen",
+                                            "value": "39339"
+                                        },
+                                        {
+                                            "name": "Fellbach",
+                                            "value": "45671"
+                                        },
+                                        {
+                                            "name": "Filderstadt",
+                                            "value": "45813"
+                                        },
+                                        {
+                                            "name": "Freiburg im Breisgau",
+                                            "value": "230241"
+                                        },
+                                        {
+                                            "name": "Freudenstadt",
+                                            "value": "23442"
+                                        },
+                                        {
+                                            "name": "Friedrichshafen",
+                                            "value": "60865"
+                                        },
+                                        {
+                                            "name": "Gaggenau",
+                                            "value": "29777"
+                                        },
+                                        {
+                                            "name": "Geislingen an der Steige",
+                                            "value": "28122"
+                                        },
+                                        {
+                                            "name": "Göppingen",
+                                            "value": "57558"
+                                        },
+                                        {
+                                            "name": "Heidelberg",
+                                            "value": "160355"
+                                        },
+                                        {
+                                            "name": "Heidenheim",
+                                            "value": "49526"
+                                        },
+                                        {
+                                            "name": "Heilbronn",
+                                            "value": "125960"
+                                        },
+                                        {
+                                            "name": "Herrenberg",
+                                            "value": "31545"
+                                        },
+                                        {
+                                            "name": "Horb am Neckar",
+                                            "value": "25135"
+                                        },
+                                        {
+                                            "name": "Karlsruhe",
+                                            "value": "313092"
+                                        },
+                                        {
+                                            "name": "Kehl",
+                                            "value": "36089"
+                                        },
+                                        {
+                                            "name": "Kirchheim unter Teck",
+                                            "value": "40523"
+                                        },
+                                        {
+                                            "name": "Konstanz",
+                                            "value": "84760"
+                                        },
+                                        {
+                                            "name": "Kornwestheim",
+                                            "value": "33803"
+                                        },
+                                        {
+                                            "name": "Künzelsau",
+                                            "value": "15391"
+                                        },
+                                        {
+                                            "name": "Leimen",
+                                            "value": "26968"
+                                        },
+                                        {
+                                            "name": "Leinfelden-Echterdingen",
+                                            "value": "40092"
+                                        },
+                                        {
+                                            "name": "Leonberg",
+                                            "value": "48733"
+                                        },
+                                        {
+                                            "name": "Lörrach",
+                                            "value": "49347"
+                                        },
+                                        {
+                                            "name": "Ludwigsburg",
+                                            "value": "93499"
+                                        },
+                                        {
+                                            "name": "Mannheim",
+                                            "value": "309370"
+                                        },
+                                        {
+                                            "name": "Mosbach",
+                                            "value": "23398"
+                                        },
+                                        {
+                                            "name": "Mühlacker",
+                                            "value": "26076"
+                                        },
+                                        {
+                                            "name": "Neckarsulm",
+                                            "value": "26492"
+                                        },
+                                        {
+                                            "name": "Neustadt",
+                                            "value": "26987"
+                                        },
+                                        {
+                                            "name": "Nürtingen",
+                                            "value": "41093"
+                                        },
+                                        {
+                                            "name": "Offenburg",
+                                            "value": "59646"
+                                        },
+                                        {
+                                            "name": "Ostfildern",
+                                            "value": "39321"
+                                        },
+                                        {
+                                            "name": "Pforzheim",
+                                            "value": "125542"
+                                        },
+                                        {
+                                            "name": "Radolfzell am Bodensee",
+                                            "value": "31203"
+                                        },
+                                        {
+                                            "name": "Rastatt",
+                                            "value": "49783"
+                                        },
+                                        {
+                                            "name": "Ravensburg",
+                                            "value": "50623"
+                                        },
+                                        {
+                                            "name": "Reutlingen",
+                                            "value": "115966"
+                                        },
+                                        {
+                                            "name": "Rheinfelden (Baden)",
+                                            "value": "33074"
+                                        },
+                                        {
+                                            "name": "Rottweil",
+                                            "value": "25274"
+                                        },
+                                        {
+                                            "name": "Schorndorf",
+                                            "value": "39634"
+                                        },
+                                        {
+                                            "name": "Schwäbisch Gmünd",
+                                            "value": "61186"
+                                        },
+                                        {
+                                            "name": "Schwäbisch Hall",
+                                            "value": "40440"
+                                        },
+                                        {
+                                            "name": "Sigmaringen",
+                                            "value": "17278"
+                                        },
+                                        {
+                                            "name": "Sindelfingen",
+                                            "value": "64858"
+                                        },
+                                        {
+                                            "name": "Sinsheim",
+                                            "value": "35442"
+                                        },
+                                        {
+                                            "name": "Stuttgart",
+                                            "value": "634830"
+                                        },
+                                        {
+                                            "name": "Tauberbischofsheim",
+                                            "value": "13231"
+                                        },
+                                        {
+                                            "name": "Tübingen",
+                                            "value": "90546"
+                                        },
+                                        {
+                                            "name": "Tuttlingen",
+                                            "value": "35730"
+                                        },
+                                        {
+                                            "name": "Ulm",
+                                            "value": "126329"
+                                        },
+                                        {
+                                            "name": "Vaihingen an der Enz",
+                                            "value": "29467"
+                                        },
+                                        {
+                                            "name": "Villingen-Schwenningen",
+                                            "value": "85181"
+                                        },
+                                        {
+                                            "name": "Waiblingen",
+                                            "value": "55449"
+                                        },
+                                        {
+                                            "name": "Waldshut-Tiengen",
+                                            "value": "24226"
+                                        },
+                                        {
+                                            "name": "Wangen im Allgäu",
+                                            "value": "26905"
+                                        },
+                                        {
+                                            "name": "Weil am Rhein",
+                                            "value": "30175"
+                                        },
+                                        {
+                                            "name": "Weingarten",
+                                            "value": "24943"
+                                        },
+                                        {
+                                            "name": "Weinheim",
+                                            "value": "45284"
+                                        },
+                                        {
+                                            "name": "Wiesloch",
+                                            "value": "26758"
+                                        },
+                                        {
+                                            "name": "Winnenden",
+                                            "value": "28339"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Bayern",
+                                    "children": [{
+                                            "name": "Aichach",
+                                            "value": "21434"
+                                        },
+                                        {
+                                            "name": "Altötting",
+                                            "value": "10119"
+                                        },
+                                        {
+                                            "name": "Amberg",
+                                            "value": "41970"
+                                        },
+                                        {
+                                            "name": "Ansbach",
+                                            "value": "41847"
+                                        },
+                                        {
+                                            "name": "Aschaffenburg",
+                                            "value": "70527"
+                                        },
+                                        {
+                                            "name": "Augsburg",
+                                            "value": "295135"
+                                        },
+                                        {
+                                            "name": "Bad Kissingen",
+                                            "value": "22444"
+                                        },
+                                        {
+                                            "name": "Bad Neustadt",
+                                            "value": "15411"
+                                        },
+                                        {
+                                            "name": "Bad Reichenhall",
+                                            "value": "18278"
+                                        },
+                                        {
+                                            "name": "Bad Tölz",
+                                            "value": "18802"
+                                        },
+                                        {
+                                            "name": "Bamberg",
+                                            "value": "77592"
+                                        },
+                                        {
+                                            "name": "Bayreuth",
+                                            "value": "74657"
+                                        },
+                                        {
+                                            "name": "Cham",
+                                            "value": "16907"
+                                        },
+                                        {
+                                            "name": "Coburg",
+                                            "value": "61054"
+                                        },
+                                        {
+                                            "name": "Dachau",
+                                            "value": "47400"
+                                        },
+                                        {
+                                            "name": "Deggendorf",
+                                            "value": "33585"
+                                        },
+                                        {
+                                            "name": "Dillingen",
+                                            "value": "18978"
+                                        },
+                                        {
+                                            "name": "Dingolfing",
+                                            "value": "19839"
+                                        },
+                                        {
+                                            "name": "Donauwörth",
+                                            "value": "20080"
+                                        },
+                                        {
+                                            "name": "Ebersberg",
+                                            "value": "12239"
+                                        },
+                                        {
+                                            "name": "Eichstätt",
+                                            "value": "13525"
+                                        },
+                                        {
+                                            "name": "Erding",
+                                            "value": "36469"
+                                        },
+                                        {
+                                            "name": "Erlangen",
+                                            "value": "111962"
+                                        },
+                                        {
+                                            "name": "Forchheim",
+                                            "value": "32171"
+                                        },
+                                        {
+                                            "name": "Freising",
+                                            "value": "48634"
+                                        },
+                                        {
+                                            "name": "Freyung",
+                                            "value": "7166"
+                                        },
+                                        {
+                                            "name": "Friedberg",
+                                            "value": "29810"
+                                        },
+                                        {
+                                            "name": "Fürstenfeldbruck",
+                                            "value": "37677"
+                                        },
+                                        {
+                                            "name": "Fürth",
+                                            "value": "127748"
+                                        },
+                                        {
+                                            "name": "Garmisch-Partenkirchen"
+                                        },
+                                        {
+                                            "name": "Geretsried",
+                                            "value": "25275"
+                                        },
+                                        {
+                                            "name": "Germering",
+                                            "value": "40389"
+                                        },
+                                        {
+                                            "name": "Günzburg",
+                                            "value": "20707"
+                                        },
+                                        {
+                                            "name": "Haßfurt",
+                                            "value": "13609"
+                                        },
+                                        {
+                                            "name": "Hof",
+                                            "value": "45930"
+                                        },
+                                        {
+                                            "name": "Ingolstadt",
+                                            "value": "136981"
+                                        },
+                                        {
+                                            "name": "Karlstadt"
+                                        },
+                                        {
+                                            "name": "Kaufbeuren",
+                                            "value": "43893"
+                                        },
+                                        {
+                                            "name": "Kelheim",
+                                            "value": "16714"
+                                        },
+                                        {
+                                            "name": "Kempten",
+                                            "value": "68907"
+                                        },
+                                        {
+                                            "name": "Kitzingen",
+                                            "value": "21704"
+                                        },
+                                        {
+                                            "name": "Königsbrunn",
+                                            "value": "28076"
+                                        },
+                                        {
+                                            "name": "Kronach",
+                                            "value": "16874"
+                                        },
+                                        {
+                                            "name": "Kulmbach",
+                                            "value": "25915"
+                                        },
+                                        {
+                                            "name": "Landsberg",
+                                            "value": "29132"
+                                        },
+                                        {
+                                            "name": "Landshut",
+                                            "value": "72404"
+                                        },
+                                        {
+                                            "name": "Lauf",
+                                            "value": "26515"
+                                        },
+                                        {
+                                            "name": "Lichtenfels",
+                                            "value": "20133"
+                                        },
+                                        {
+                                            "name": "Lindau",
+                                            "value": "25490"
+                                        },
+                                        {
+                                            "name": "Marktoberdorf",
+                                            "value": "18539"
+                                        },
+                                        {
+                                            "name": "Memmingen",
+                                            "value": "43837"
+                                        },
+                                        {
+                                            "name": "Miesbach",
+                                            "value": "11562"
+                                        },
+                                        {
+                                            "name": "Miltenberg",
+                                            "value": "9355"
+                                        },
+                                        {
+                                            "name": "Mindelheim",
+                                            "value": "15002"
+                                        },
+                                        {
+                                            "name": "Mühldorf",
+                                            "value": "20323"
+                                        },
+                                        {
+                                            "name": "Munich",
+                                            "value": "1471508"
+                                        },
+                                        {
+                                            "name": "Neuburg",
+                                            "value": "29682"
+                                        },
+                                        {
+                                            "name": "Neumarkt",
+                                            "value": "40002"
+                                        },
+                                        {
+                                            "name": "Neustadt",
+                                            "value": "13121"
+                                        },
+                                        {
+                                            "name": "Neustadt",
+                                            "value": "5727"
+                                        },
+                                        {
+                                            "name": "Neu-Ulm",
+                                            "value": "58707"
+                                        },
+                                        {
+                                            "name": "Nuremberg",
+                                            "value": "518365"
+                                        },
+                                        {
+                                            "name": "Olching",
+                                            "value": "27741"
+                                        },
+                                        {
+                                            "name": "Passau",
+                                            "value": "52469"
+                                        },
+                                        {
+                                            "name": "Pfaffenhofen",
+                                            "value": "25917"
+                                        },
+                                        {
+                                            "name": "Pfarrkirchen",
+                                            "value": "12677"
+                                        },
+                                        {
+                                            "name": "Regen",
+                                            "value": "11001"
+                                        },
+                                        {
+                                            "name": "Regensburg",
+                                            "value": "152610"
+                                        },
+                                        {
+                                            "name": "Rosenheim",
+                                            "value": "63324"
+                                        },
+                                        {
+                                            "name": "Roth",
+                                            "value": "25593"
+                                        },
+                                        {
+                                            "name": "Schwabach",
+                                            "value": "40792"
+                                        },
+                                        {
+                                            "name": "Schwandorf",
+                                            "value": "28828"
+                                        },
+                                        {
+                                            "name": "Schweinfurt",
+                                            "value": "54032"
+                                        },
+                                        {
+                                            "name": "Sonthofen",
+                                            "value": "21541"
+                                        },
+                                        {
+                                            "name": "Starnberg",
+                                            "value": "23498"
+                                        },
+                                        {
+                                            "name": "Straubing",
+                                            "value": "47794"
+                                        },
+                                        {
+                                            "name": "Tirschenreuth",
+                                            "value": "8707"
+                                        },
+                                        {
+                                            "name": "Traunstein",
+                                            "value": "20520"
+                                        },
+                                        {
+                                            "name": "Unterschleißheim",
+                                            "value": "28907"
+                                        },
+                                        {
+                                            "name": "Weiden"
+                                        },
+                                        {
+                                            "name": "Weilheim",
+                                            "value": "22477"
+                                        },
+                                        {
+                                            "name": "Weißenburg",
+                                            "value": "18464"
+                                        },
+                                        {
+                                            "name": "Wunsiedel",
+                                            "value": "9259"
+                                        },
+                                        {
+                                            "name": "Würzburg",
+                                            "value": "127880"
+                                        },
+                                        {
+                                            "name": "Zirndorf",
+                                            "value": "25596"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Berlin",
+                                    "children": [{
+                                        "name": "Berlin",
+                                        "value": "3644826"
+                                    }]
+                                },
+                                {
+                                    "name": "Brandenburg",
+                                    "children": [{
+                                            "name": "Beeskow",
+                                            "value": "8042"
+                                        },
+                                        {
+                                            "name": "Brandenburg",
+                                            "value": "72124"
+                                        },
+                                        {
+                                            "name": "Cottbus",
+                                            "value": "100219"
+                                        },
+                                        {
+                                            "name": "Eberswalde",
+                                            "value": "40387"
+                                        },
+                                        {
+                                            "name": "Falkensee",
+                                            "value": "43838"
+                                        },
+                                        {
+                                            "name": "Forst",
+                                            "value": "18164"
+                                        },
+                                        {
+                                            "name": "Frankfurt (Oder)",
+                                            "value": "57873"
+                                        },
+                                        {
+                                            "name": "Fürstenwalde",
+                                            "value": "31941"
+                                        },
+                                        {
+                                            "name": "Hennigsdorf",
+                                            "value": "26272"
+                                        },
+                                        {
+                                            "name": "Herzberg",
+                                            "value": "9027"
+                                        },
+                                        {
+                                            "name": "Hohen Neuendorf",
+                                            "value": "26159"
+                                        },
+                                        {
+                                            "name": "Königs Wusterhausen",
+                                            "value": "37190"
+                                        },
+                                        {
+                                            "name": "Lübben",
+                                            "value": "14024"
+                                        },
+                                        {
+                                            "name": "Luckenwalde",
+                                            "value": "20522"
+                                        },
+                                        {
+                                            "name": "Ludwigsfelde",
+                                            "value": "26112"
+                                        },
+                                        {
+                                            "name": "Neuruppin",
+                                            "value": "30846"
+                                        },
+                                        {
+                                            "name": "Oranienburg",
+                                            "value": "44512"
+                                        },
+                                        {
+                                            "name": "Perleberg",
+                                            "value": "12141"
+                                        },
+                                        {
+                                            "name": "Potsdam",
+                                            "value": "178089"
+                                        },
+                                        {
+                                            "name": "Prenzlau",
+                                            "value": "19024"
+                                        },
+                                        {
+                                            "name": "Rathenow",
+                                            "value": "24309"
+                                        },
+                                        {
+                                            "name": "Schwedt (Oder)",
+                                            "value": "29920"
+                                        },
+                                        {
+                                            "name": "Seelow",
+                                            "value": "5426"
+                                        },
+                                        {
+                                            "name": "Senftenberg",
+                                            "value": "24275"
+                                        },
+                                        {
+                                            "name": "Strausberg",
+                                            "value": "26587"
+                                        },
+                                        {
+                                            "name": "Teltow",
+                                            "value": "25825"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Bremen",
+                                    "children": [{
+                                            "name": "Bremen",
+                                            "value": "724909"
+                                        },
+                                        {
+                                            "name": "Bremerhaven",
+                                            "value": "113634"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Hamburg",
+                                    "children": [{
+                                        "name": "Hamburg",
+                                        "value": "1841179"
+                                    }]
+                                },
+                                {
+                                    "name": "Hessen",
+                                    "children": [{
+                                            "name": "Bad Hersfeld",
+                                            "value": "29800"
+                                        },
+                                        {
+                                            "name": "Bad Homburg",
+                                            "value": "54248"
+                                        },
+                                        {
+                                            "name": "Bad Nauheim",
+                                            "value": "32163"
+                                        },
+                                        {
+                                            "name": "Bad Schwalbach",
+                                            "value": "11187"
+                                        },
+                                        {
+                                            "name": "Bad Vilbel",
+                                            "value": "33990"
+                                        },
+                                        {
+                                            "name": "Baunatal",
+                                            "value": "27750"
+                                        },
+                                        {
+                                            "name": "Bensheim",
+                                            "value": "40456"
+                                        },
+                                        {
+                                            "name": "Butzbach",
+                                            "value": "26197"
+                                        },
+                                        {
+                                            "name": "Darmstadt",
+                                            "value": "159207"
+                                        },
+                                        {
+                                            "name": "Dietzenbach",
+                                            "value": "34019"
+                                        },
+                                        {
+                                            "name": "Dreieich",
+                                            "value": "42091"
+                                        },
+                                        {
+                                            "name": "Erbach",
+                                            "value": "13666"
+                                        },
+                                        {
+                                            "name": "Eschwege",
+                                            "value": "19606"
+                                        },
+                                        {
+                                            "name": "Frankfurt",
+                                            "value": "753056"
+                                        },
+                                        {
+                                            "name": "Friedberg",
+                                            "value": "29180"
+                                        },
+                                        {
+                                            "name": "Friedrichsdorf",
+                                            "value": "25194"
+                                        },
+                                        {
+                                            "name": "Fulda",
+                                            "value": "68586"
+                                        },
+                                        {
+                                            "name": "Gießen",
+                                            "value": "88546"
+                                        },
+                                        {
+                                            "name": "Griesheim",
+                                            "value": "27435"
+                                        },
+                                        {
+                                            "name": "Groß-Gerau",
+                                            "value": "25302"
+                                        },
+                                        {
+                                            "name": "Hanau",
+                                            "value": "96023"
+                                        },
+                                        {
+                                            "name": "Heppenheim",
+                                            "value": "26023"
+                                        },
+                                        {
+                                            "name": "Hofheim",
+                                            "value": "39766"
+                                        },
+                                        {
+                                            "name": "Homberg",
+                                            "value": "34576"
+                                        },
+                                        {
+                                            "name": "Idstein",
+                                            "value": "24897"
+                                        },
+                                        {
+                                            "name": "Kassel",
+                                            "value": "201585"
+                                        },
+                                        {
+                                            "name": "Kelkheim (Taunus)",
+                                            "value": "29055"
+                                        },
+                                        {
+                                            "name": "Korbach",
+                                            "value": "23581"
+                                        },
+                                        {
+                                            "name": "Lampertheim",
+                                            "value": "32537"
+                                        },
+                                        {
+                                            "name": "Langen",
+                                            "value": "37902"
+                                        },
+                                        {
+                                            "name": "Lauterbach",
+                                            "value": "13664"
+                                        },
+                                        {
+                                            "name": "Limburg",
+                                            "value": "35243"
+                                        },
+                                        {
+                                            "name": "Maintal",
+                                            "value": "39298"
+                                        },
+                                        {
+                                            "name": "Marburg",
+                                            "value": "76851"
+                                        },
+                                        {
+                                            "name": "Mörfelden-Walldorf",
+                                            "value": "34828"
+                                        },
+                                        {
+                                            "name": "Neu Isenburg",
+                                            "value": "37668"
+                                        },
+                                        {
+                                            "name": "Neustadt",
+                                            "value": "53148"
+                                        },
+                                        {
+                                            "name": "Obertshausen",
+                                            "value": "24943"
+                                        },
+                                        {
+                                            "name": "Oberursel",
+                                            "value": "46248"
+                                        },
+                                        {
+                                            "name": "Offenbach",
+                                            "value": "128744"
+                                        },
+                                        {
+                                            "name": "Pfungstadt",
+                                            "value": "25151"
+                                        },
+                                        {
+                                            "name": "Rodgau",
+                                            "value": "45202"
+                                        },
+                                        {
+                                            "name": "Steinheim am Main",
+                                            "value": "28403"
+                                        },
+                                        {
+                                            "name": "Taunusstein",
+                                            "value": "30005"
+                                        },
+                                        {
+                                            "name": "Viernheim",
+                                            "value": "34175"
+                                        },
+                                        {
+                                            "name": "Weiterstadt",
+                                            "value": "25975"
+                                        },
+                                        {
+                                            "name": "Wetzlar",
+                                            "value": "52954"
+                                        },
+                                        {
+                                            "name": "Wiesbaden",
+                                            "value": "278342"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Mecklenburg-Vorpommern",
+                                    "children": [{
+                                            "name": "Greifswald",
+                                            "value": "59382"
+                                        },
+                                        {
+                                            "name": "Güstrow",
+                                            "value": "29241"
+                                        },
+                                        {
+                                            "name": "Neubrandenburg",
+                                            "value": "64086"
+                                        },
+                                        {
+                                            "name": "Parchim",
+                                            "value": "18037"
+                                        },
+                                        {
+                                            "name": "Rostock",
+                                            "value": "208886"
+                                        },
+                                        {
+                                            "name": "Schwerin",
+                                            "value": "95818"
+                                        },
+                                        {
+                                            "name": "Stralsund",
+                                            "value": "59421"
+                                        },
+                                        {
+                                            "name": "Wismar",
+                                            "value": "42550"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Niedersachsen",
+                                    "children": [{
+                                            "name": "Achim",
+                                            "value": "31911"
+                                        },
+                                        {
+                                            "name": "Aurich",
+                                            "value": "41991"
+                                        },
+                                        {
+                                            "name": "Bad Fallingbostel",
+                                            "value": "11852"
+                                        },
+                                        {
+                                            "name": "Barsinghausen",
+                                            "value": "34234"
+                                        },
+                                        {
+                                            "name": "Brake",
+                                            "value": "14965"
+                                        },
+                                        {
+                                            "name": "Bramsche",
+                                            "value": "30952"
+                                        },
+                                        {
+                                            "name": "Braunschweig",
+                                            "value": "248292"
+                                        },
+                                        {
+                                            "name": "Burgdorf",
+                                            "value": "30699"
+                                        },
+                                        {
+                                            "name": "Buxtehude",
+                                            "value": "40150"
+                                        },
+                                        {
+                                            "name": "Celle",
+                                            "value": "69602"
+                                        },
+                                        {
+                                            "name": "Cloppenburg",
+                                            "value": "34913"
+                                        },
+                                        {
+                                            "name": "Cuxhaven",
+                                            "value": "48358"
+                                        },
+                                        {
+                                            "name": "Delmenhorst",
+                                            "value": "77607"
+                                        },
+                                        {
+                                            "name": "Diepholz",
+                                            "value": "16882"
+                                        },
+                                        {
+                                            "name": "Einbeck",
+                                            "value": "30826"
+                                        },
+                                        {
+                                            "name": "Emden",
+                                            "value": "49913"
+                                        },
+                                        {
+                                            "name": "Garbsen",
+                                            "value": "60754"
+                                        },
+                                        {
+                                            "name": "Georgsmarienhütte",
+                                            "value": "31827"
+                                        },
+                                        {
+                                            "name": "Gifhorn",
+                                            "value": "42519"
+                                        },
+                                        {
+                                            "name": "Goslar",
+                                            "value": "50753"
+                                        },
+                                        {
+                                            "name": "Göttingen",
+                                            "value": "119801"
+                                        },
+                                        {
+                                            "name": "Hameln",
+                                            "value": "57510"
+                                        },
+                                        {
+                                            "name": "Hannover",
+                                            "value": "538068"
+                                        },
+                                        {
+                                            "name": "Helmstedt",
+                                            "value": "25728"
+                                        },
+                                        {
+                                            "name": "Hildesheim",
+                                            "value": "101990"
+                                        },
+                                        {
+                                            "name": "Holzminden",
+                                            "value": "19998"
+                                        },
+                                        {
+                                            "name": "Jever",
+                                            "value": "14301"
+                                        },
+                                        {
+                                            "name": "Laatzen",
+                                            "value": "41422"
+                                        },
+                                        {
+                                            "name": "Langenhagen",
+                                            "value": "54631"
+                                        },
+                                        {
+                                            "name": "Leer",
+                                            "value": "34486"
+                                        },
+                                        {
+                                            "name": "Lehrte",
+                                            "value": "43999"
+                                        },
+                                        {
+                                            "name": "Lingen",
+                                            "value": "54422"
+                                        },
+                                        {
+                                            "name": "Lohne",
+                                            "value": "26762"
+                                        },
+                                        {
+                                            "name": "Lüchow",
+                                            "value": "9420"
+                                        },
+                                        {
+                                            "name": "Lüneburg",
+                                            "value": "75351"
+                                        },
+                                        {
+                                            "name": "Melle",
+                                            "value": "46493"
+                                        },
+                                        {
+                                            "name": "Meppen",
+                                            "value": "35373"
+                                        },
+                                        {
+                                            "name": "Neustadt am Rübenberge",
+                                            "value": "44282"
+                                        },
+                                        {
+                                            "name": "Nienburg",
+                                            "value": "31582"
+                                        },
+                                        {
+                                            "name": "Norden",
+                                            "value": "25060"
+                                        },
+                                        {
+                                            "name": "Nordenham",
+                                            "value": "26193"
+                                        },
+                                        {
+                                            "name": "Nordhorn",
+                                            "value": "53403"
+                                        },
+                                        {
+                                            "name": "Northeim",
+                                            "value": "29107"
+                                        },
+                                        {
+                                            "name": "Oldenburg",
+                                            "value": "168210"
+                                        },
+                                        {
+                                            "name": "Osnabrück",
+                                            "value": "164748"
+                                        },
+                                        {
+                                            "name": "Osterholz-Scharmbeck",
+                                            "value": "30300"
+                                        },
+                                        {
+                                            "name": "Osterode",
+                                            "value": "21731"
+                                        },
+                                        {
+                                            "name": "Papenburg",
+                                            "value": "37579"
+                                        },
+                                        {
+                                            "name": "Peine",
+                                            "value": "49952"
+                                        },
+                                        {
+                                            "name": "Rinteln",
+                                            "value": "25484"
+                                        },
+                                        {
+                                            "name": "Rotenburg",
+                                            "value": "21951"
+                                        },
+                                        {
+                                            "name": "Salzgitter",
+                                            "value": "104948"
+                                        },
+                                        {
+                                            "name": "Seelze",
+                                            "value": "34442"
+                                        },
+                                        {
+                                            "name": "Springe",
+                                            "value": "28951"
+                                        },
+                                        {
+                                            "name": "Stade",
+                                            "value": "47533"
+                                        },
+                                        {
+                                            "name": "Stadthagen",
+                                            "value": "22247"
+                                        },
+                                        {
+                                            "name": "Uelzen",
+                                            "value": "33614"
+                                        },
+                                        {
+                                            "name": "Vechta",
+                                            "value": "32433"
+                                        },
+                                        {
+                                            "name": "Verden",
+                                            "value": "27747"
+                                        },
+                                        {
+                                            "name": "Westerstede",
+                                            "value": "22778"
+                                        },
+                                        {
+                                            "name": "Wilhelmshaven",
+                                            "value": "76097"
+                                        },
+                                        {
+                                            "name": "Winsen",
+                                            "value": "34896"
+                                        },
+                                        {
+                                            "name": "Wittmund",
+                                            "value": "20321"
+                                        },
+                                        {
+                                            "name": "Wolfenbüttel",
+                                            "value": "52174"
+                                        },
+                                        {
+                                            "name": "Wolfsburg",
+                                            "value": "124151"
+                                        },
+                                        {
+                                            "name": "Wunstorf",
+                                            "value": "41594"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Nordrhein-Westfalen",
+                                    "children": [{
+                                            "name": "Aachen",
+                                            "value": "247380"
+                                        },
+                                        {
+                                            "name": "Ahaus",
+                                            "value": "39223"
+                                        },
+                                        {
+                                            "name": "Ahlen",
+                                            "value": "52582"
+                                        },
+                                        {
+                                            "name": "Alsdorf",
+                                            "value": "47018"
+                                        },
+                                        {
+                                            "name": "Arnsberg",
+                                            "value": "73628"
+                                        },
+                                        {
+                                            "name": "Bad Honnef am Rhein",
+                                            "value": "25816"
+                                        },
+                                        {
+                                            "name": "Bad Oeynhausen",
+                                            "value": "48702"
+                                        },
+                                        {
+                                            "name": "Bad Salzuflen",
+                                            "value": "54127"
+                                        },
+                                        {
+                                            "name": "Baesweiler",
+                                            "value": "27033"
+                                        },
+                                        {
+                                            "name": "Beckum",
+                                            "value": "36646"
+                                        },
+                                        {
+                                            "name": "Bergheim",
+                                            "value": "61612"
+                                        },
+                                        {
+                                            "name": "Bergisch Gladbach",
+                                            "value": "111966"
+                                        },
+                                        {
+                                            "name": "Bergkamen",
+                                            "value": "48725"
+                                        },
+                                        {
+                                            "name": "Bielefeld",
+                                            "value": "333786"
+                                        },
+                                        {
+                                            "name": "Bocholt",
+                                            "value": "71099"
+                                        },
+                                        {
+                                            "name": "Bochum",
+                                            "value": "364628"
+                                        },
+                                        {
+                                            "name": "Bonn",
+                                            "value": "327258"
+                                        },
+                                        {
+                                            "name": "Borken",
+                                            "value": "42530"
+                                        },
+                                        {
+                                            "name": "Bornheim",
+                                            "value": "48326"
+                                        },
+                                        {
+                                            "name": "Bottrop",
+                                            "value": "117383"
+                                        },
+                                        {
+                                            "name": "Brilon",
+                                            "value": "25417"
+                                        },
+                                        {
+                                            "name": "Brühl",
+                                            "value": "44397"
+                                        },
+                                        {
+                                            "name": "Bünde",
+                                            "value": "45521"
+                                        },
+                                        {
+                                            "name": "Castrop-Rauxel",
+                                            "value": "73425"
+                                        },
+                                        {
+                                            "name": "Coesfeld",
+                                            "value": "36217"
+                                        },
+                                        {
+                                            "name": "Cologne",
+                                            "value": "1085664"
+                                        },
+                                        {
+                                            "name": "Datteln",
+                                            "value": "34614"
+                                        },
+                                        {
+                                            "name": "Delbrück",
+                                            "value": "31949"
+                                        },
+                                        {
+                                            "name": "Derne",
+                                            "value": "29662"
+                                        },
+                                        {
+                                            "name": "Detmold",
+                                            "value": "74388"
+                                        },
+                                        {
+                                            "name": "Dinslaken",
+                                            "value": "67525"
+                                        },
+                                        {
+                                            "name": "Dormagen",
+                                            "value": "64335"
+                                        },
+                                        {
+                                            "name": "Dorsten",
+                                            "value": "74736"
+                                        },
+                                        {
+                                            "name": "Dortmund",
+                                            "value": "587010"
+                                        },
+                                        {
+                                            "name": "Duisburg",
+                                            "value": "498590"
+                                        },
+                                        {
+                                            "name": "Dülmen",
+                                            "value": "46590"
+                                        },
+                                        {
+                                            "name": "Düren",
+                                            "value": "90733"
+                                        },
+                                        {
+                                            "name": "Düsseldorf",
+                                            "value": "619294"
+                                        },
+                                        {
+                                            "name": "Emsdetten",
+                                            "value": "36012"
+                                        },
+                                        {
+                                            "name": "Ennepetal",
+                                            "value": "30075"
+                                        },
+                                        {
+                                            "name": "Erftstadt",
+                                            "value": "49801"
+                                        },
+                                        {
+                                            "name": "Erkelenz",
+                                            "value": "43364"
+                                        },
+                                        {
+                                            "name": "Erkrath",
+                                            "value": "44384"
+                                        },
+                                        {
+                                            "name": "Eschweiler",
+                                            "value": "56385"
+                                        },
+                                        {
+                                            "name": "Espelkamp",
+                                            "value": "24685"
+                                        },
+                                        {
+                                            "name": "Essen",
+                                            "value": "583109"
+                                        },
+                                        {
+                                            "name": "Euskirchen",
+                                            "value": "57975"
+                                        },
+                                        {
+                                            "name": "Frechen",
+                                            "value": "52473"
+                                        },
+                                        {
+                                            "name": "Geilenkirchen",
+                                            "value": "27214"
+                                        },
+                                        {
+                                            "name": "Geldern",
+                                            "value": "33836"
+                                        },
+                                        {
+                                            "name": "Gelsenkirchen",
+                                            "value": "260654"
+                                        },
+                                        {
+                                            "name": "Gevelsberg",
+                                            "value": "30695"
+                                        },
+                                        {
+                                            "name": "Gladbeck",
+                                            "value": "75687"
+                                        },
+                                        {
+                                            "name": "Goch",
+                                            "value": "33825"
+                                        },
+                                        {
+                                            "name": "Greven",
+                                            "value": "37692"
+                                        },
+                                        {
+                                            "name": "Grevenbroich",
+                                            "value": "63620"
+                                        },
+                                        {
+                                            "name": "Gronau",
+                                            "value": "48072"
+                                        },
+                                        {
+                                            "name": "Gummersbach",
+                                            "value": "50688"
+                                        },
+                                        {
+                                            "name": "Gütersloh",
+                                            "value": "100194"
+                                        },
+                                        {
+                                            "name": "Haan",
+                                            "value": "30484"
+                                        },
+                                        {
+                                            "name": "Hagen",
+                                            "value": "188814"
+                                        },
+                                        {
+                                            "name": "Hamm",
+                                            "value": "179111"
+                                        },
+                                        {
+                                            "name": "Hamminkeln",
+                                            "value": "26739"
+                                        },
+                                        {
+                                            "name": "Harsewinkel",
+                                            "value": "25147"
+                                        },
+                                        {
+                                            "name": "Hattingen",
+                                            "value": "54562"
+                                        },
+                                        {
+                                            "name": "Heiligenhaus",
+                                            "value": "26335"
+                                        },
+                                        {
+                                            "name": "Heinsberg",
+                                            "value": "41946"
+                                        },
+                                        {
+                                            "name": "Hemer",
+                                            "value": "34080"
+                                        },
+                                        {
+                                            "name": "Herford",
+                                            "value": "66608"
+                                        },
+                                        {
+                                            "name": "Herne",
+                                            "value": "156374"
+                                        },
+                                        {
+                                            "name": "Herten",
+                                            "value": "61791"
+                                        },
+                                        {
+                                            "name": "Herzogenrath",
+                                            "value": "46402"
+                                        },
+                                        {
+                                            "name": "Hilden",
+                                            "value": "55764"
+                                        },
+                                        {
+                                            "name": "Höxter",
+                                            "value": "28824"
+                                        },
+                                        {
+                                            "name": "Hückelhoven",
+                                            "value": "39931"
+                                        },
+                                        {
+                                            "name": "Hürth",
+                                            "value": "60189"
+                                        },
+                                        {
+                                            "name": "Ibbenbüren",
+                                            "value": "51904"
+                                        },
+                                        {
+                                            "name": "Iserlohn",
+                                            "value": "92666"
+                                        },
+                                        {
+                                            "name": "Jülich",
+                                            "value": "32632"
+                                        },
+                                        {
+                                            "name": "Kaarst",
+                                            "value": "43433"
+                                        },
+                                        {
+                                            "name": "Kamen",
+                                            "value": "42971"
+                                        },
+                                        {
+                                            "name": "Kamp-Lintfort",
+                                            "value": "37391"
+                                        },
+                                        {
+                                            "name": "Kempen",
+                                            "value": "34597"
+                                        },
+                                        {
+                                            "name": "Kerpen",
+                                            "value": "66206"
+                                        },
+                                        {
+                                            "name": "Kevelaer",
+                                            "value": "28021"
+                                        },
+                                        {
+                                            "name": "Kleve",
+                                            "value": "51845"
+                                        },
+                                        {
+                                            "name": "Königswinter",
+                                            "value": "41243"
+                                        },
+                                        {
+                                            "name": "Korschenbroich",
+                                            "value": "33066"
+                                        },
+                                        {
+                                            "name": "Krefeld",
+                                            "value": "227020"
+                                        },
+                                        {
+                                            "name": "Kreuztal",
+                                            "value": "31187"
+                                        },
+                                        {
+                                            "name": "Lage",
+                                            "value": "35047"
+                                        },
+                                        {
+                                            "name": "Langenfeld",
+                                            "value": "58927"
+                                        },
+                                        {
+                                            "name": "Leichlingen",
+                                            "value": "28031"
+                                        },
+                                        {
+                                            "name": "Lemgo",
+                                            "value": "40696"
+                                        },
+                                        {
+                                            "name": "Lennestadt",
+                                            "value": "25503"
+                                        },
+                                        {
+                                            "name": "Leverkusen",
+                                            "value": "163838"
+                                        },
+                                        {
+                                            "name": "Lippstadt",
+                                            "value": "67901"
+                                        },
+                                        {
+                                            "name": "Lohmar",
+                                            "value": "30363"
+                                        },
+                                        {
+                                            "name": "Löhne",
+                                            "value": "39697"
+                                        },
+                                        {
+                                            "name": "Lübbecke",
+                                            "value": "25490"
+                                        },
+                                        {
+                                            "name": "Lüdenscheid",
+                                            "value": "72611"
+                                        },
+                                        {
+                                            "name": "Lünen",
+                                            "value": "86449"
+                                        },
+                                        {
+                                            "name": "Marl",
+                                            "value": "83941"
+                                        },
+                                        {
+                                            "name": "Mechernich",
+                                            "value": "27598"
+                                        },
+                                        {
+                                            "name": "Meerbusch",
+                                            "value": "56189"
+                                        },
+                                        {
+                                            "name": "Meschede",
+                                            "value": "29921"
+                                        },
+                                        {
+                                            "name": "Mettmann",
+                                            "value": "38829"
+                                        },
+                                        {
+                                            "name": "Minden",
+                                            "value": "81682"
+                                        },
+                                        {
+                                            "name": "Moers",
+                                            "value": "103725"
+                                        },
+                                        {
+                                            "name": "Mönchengladbach",
+                                            "value": "261454"
+                                        },
+                                        {
+                                            "name": "Mülheim",
+                                            "value": "170880"
+                                        },
+                                        {
+                                            "name": "Münster",
+                                            "value": "314319"
+                                        },
+                                        {
+                                            "name": "Nettetal",
+                                            "value": "42493"
+                                        },
+                                        {
+                                            "name": "Neuss",
+                                            "value": "153796"
+                                        },
+                                        {
+                                            "name": "Niederkassel",
+                                            "value": "38218"
+                                        },
+                                        {
+                                            "name": "Oberhausen",
+                                            "value": "210829"
+                                        },
+                                        {
+                                            "name": "Oelde",
+                                            "value": "29326"
+                                        },
+                                        {
+                                            "name": "Oer-Erkenschwick",
+                                            "value": "31442"
+                                        },
+                                        {
+                                            "name": "Olpe",
+                                            "value": "24688"
+                                        },
+                                        {
+                                            "name": "Overath",
+                                            "value": "27040"
+                                        },
+                                        {
+                                            "name": "Paderborn",
+                                            "value": "150580"
+                                        },
+                                        {
+                                            "name": "Petershagen",
+                                            "value": "25168"
+                                        },
+                                        {
+                                            "name": "Plettenberg",
+                                            "value": "25318"
+                                        },
+                                        {
+                                            "name": "Porta Westfalica",
+                                            "value": "35671"
+                                        },
+                                        {
+                                            "name": "Pulheim",
+                                            "value": "54071"
+                                        },
+                                        {
+                                            "name": "Ratingen",
+                                            "value": "87297"
+                                        },
+                                        {
+                                            "name": "Recklinghausen",
+                                            "value": "112267"
+                                        },
+                                        {
+                                            "name": "Remscheid",
+                                            "value": "110994"
+                                        },
+                                        {
+                                            "name": "Rheda-Wiedenbrück",
+                                            "value": "48505"
+                                        },
+                                        {
+                                            "name": "Rheinbach",
+                                            "value": "27063"
+                                        },
+                                        {
+                                            "name": "Rheinberg",
+                                            "value": "31097"
+                                        },
+                                        {
+                                            "name": "Rheine",
+                                            "value": "76107"
+                                        },
+                                        {
+                                            "name": "Rietberg",
+                                            "value": "29466"
+                                        },
+                                        {
+                                            "name": "Rösrath",
+                                            "value": "28693"
+                                        },
+                                        {
+                                            "name": "Salzkotten",
+                                            "value": "25062"
+                                        },
+                                        {
+                                            "name": "Sankt Augustin",
+                                            "value": "55767"
+                                        },
+                                        {
+                                            "name": "Schloß Holte-Stukenbrock",
+                                            "value": "26776"
+                                        },
+                                        {
+                                            "name": "Schmallenberg",
+                                            "value": "24869"
+                                        },
+                                        {
+                                            "name": "Schwelm",
+                                            "value": "28542"
+                                        },
+                                        {
+                                            "name": "Schwerte",
+                                            "value": "46340"
+                                        },
+                                        {
+                                            "name": "Selm",
+                                            "value": "26011"
+                                        },
+                                        {
+                                            "name": "Siegburg",
+                                            "value": "41463"
+                                        },
+                                        {
+                                            "name": "Siegen",
+                                            "value": "102836"
+                                        },
+                                        {
+                                            "name": "Soest",
+                                            "value": "47460"
+                                        },
+                                        {
+                                            "name": "Solingen",
+                                            "value": "159360"
+                                        },
+                                        {
+                                            "name": "Sprockhövel",
+                                            "value": "24747"
+                                        },
+                                        {
+                                            "name": "Steinfurt",
+                                            "value": "34084"
+                                        },
+                                        {
+                                            "name": "Stolberg",
+                                            "value": "56792"
+                                        },
+                                        {
+                                            "name": "Sundern",
+                                            "value": "27802"
+                                        },
+                                        {
+                                            "name": "Tönisvorst",
+                                            "value": "29306"
+                                        },
+                                        {
+                                            "name": "Troisdorf",
+                                            "value": "74903"
+                                        },
+                                        {
+                                            "name": "Unna",
+                                            "value": "58633"
+                                        },
+                                        {
+                                            "name": "Velbert",
+                                            "value": "81984"
+                                        },
+                                        {
+                                            "name": "Verl",
+                                            "value": "25498"
+                                        },
+                                        {
+                                            "name": "Viersen",
+                                            "value": "76905"
+                                        },
+                                        {
+                                            "name": "Waltrop",
+                                            "value": "29345"
+                                        },
+                                        {
+                                            "name": "Warendorf",
+                                            "value": "37226"
+                                        },
+                                        {
+                                            "name": "Warstein",
+                                            "value": "24842"
+                                        },
+                                        {
+                                            "name": "Wegberg",
+                                            "value": "28175"
+                                        },
+                                        {
+                                            "name": "Werl",
+                                            "value": "30772"
+                                        },
+                                        {
+                                            "name": "Wermelskirchen",
+                                            "value": "34765"
+                                        },
+                                        {
+                                            "name": "Wesel",
+                                            "value": "60357"
+                                        },
+                                        {
+                                            "name": "Wesseling",
+                                            "value": "36146"
+                                        },
+                                        {
+                                            "name": "Wetter (Ruhr)",
+                                            "value": "27441"
+                                        },
+                                        {
+                                            "name": "Wiehl",
+                                            "value": "25135"
+                                        },
+                                        {
+                                            "name": "Willich",
+                                            "value": "50592"
+                                        },
+                                        {
+                                            "name": "Witten",
+                                            "value": "96563"
+                                        },
+                                        {
+                                            "name": "Wuppertal",
+                                            "value": "354382"
+                                        },
+                                        {
+                                            "name": "Würselen",
+                                            "value": "38712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Rheinland-Pfalz",
+                                    "children": [{
+                                            "name": "Altenkirchen",
+                                            "value": "6263"
+                                        },
+                                        {
+                                            "name": "Alzey",
+                                            "value": "18535"
+                                        },
+                                        {
+                                            "name": "Andernach",
+                                            "value": "29966"
+                                        },
+                                        {
+                                            "name": "Bad Dürkheim",
+                                            "value": "18476"
+                                        },
+                                        {
+                                            "name": "Bad Ems",
+                                            "value": "9681"
+                                        },
+                                        {
+                                            "name": "Bad Kreuznach",
+                                            "value": "50948"
+                                        },
+                                        {
+                                            "name": "Bad Neuenahr-Ahrweiler",
+                                            "value": "28251"
+                                        },
+                                        {
+                                            "name": "Bingen am Rhein",
+                                            "value": "25659"
+                                        },
+                                        {
+                                            "name": "Birkenfeld",
+                                            "value": "6984"
+                                        },
+                                        {
+                                            "name": "Bitburg",
+                                            "value": "14904"
+                                        },
+                                        {
+                                            "name": "Cochem",
+                                            "value": "5312"
+                                        },
+                                        {
+                                            "name": "Daun",
+                                            "value": "7974"
+                                        },
+                                        {
+                                            "name": "Frankenthal",
+                                            "value": "48561"
+                                        },
+                                        {
+                                            "name": "Germersheim",
+                                            "value": "20779"
+                                        },
+                                        {
+                                            "name": "Idar-Oberstein",
+                                            "value": "28323"
+                                        },
+                                        {
+                                            "name": "Ingelheim",
+                                            "value": "35146"
+                                        },
+                                        {
+                                            "name": "Kaiserslautern",
+                                            "value": "100030"
+                                        },
+                                        {
+                                            "name": "Kirchheimbolanden",
+                                            "value": "7802"
+                                        },
+                                        {
+                                            "name": "Koblenz",
+                                            "value": "114024"
+                                        },
+                                        {
+                                            "name": "Kusel",
+                                            "value": "5405"
+                                        },
+                                        {
+                                            "name": "Landau",
+                                            "value": "46677"
+                                        },
+                                        {
+                                            "name": "Ludwigshafen",
+                                            "value": "171061"
+                                        },
+                                        {
+                                            "name": "Mainz",
+                                            "value": "184997"
+                                        },
+                                        {
+                                            "name": "Montabaur",
+                                            "value": "13691"
+                                        },
+                                        {
+                                            "name": "Neustadt",
+                                            "value": "53148"
+                                        },
+                                        {
+                                            "name": "Neuwied",
+                                            "value": "64574"
+                                        },
+                                        {
+                                            "name": "Pirmasens",
+                                            "value": "40403"
+                                        },
+                                        {
+                                            "name": "Simmern",
+                                            "value": "7950"
+                                        },
+                                        {
+                                            "name": "Speyer",
+                                            "value": "50378"
+                                        },
+                                        {
+                                            "name": "Trier",
+                                            "value": "110636"
+                                        },
+                                        {
+                                            "name": "Wittlich",
+                                            "value": "18995"
+                                        },
+                                        {
+                                            "name": "Worms",
+                                            "value": "83330"
+                                        },
+                                        {
+                                            "name": "Zweibrücken",
+                                            "value": "34209"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Saarland",
+                                    "children": [{
+                                            "name": "Homburg",
+                                            "value": "41811"
+                                        },
+                                        {
+                                            "name": "Merzig",
+                                            "value": "29745"
+                                        },
+                                        {
+                                            "name": "Neunkirchen",
+                                            "value": "46469"
+                                        },
+                                        {
+                                            "name": "Saarbrücken",
+                                            "value": "180741"
+                                        },
+                                        {
+                                            "name": "Saarlouis",
+                                            "value": "34552"
+                                        },
+                                        {
+                                            "name": "Sankt Ingbert",
+                                            "value": "35714"
+                                        },
+                                        {
+                                            "name": "Sankt Wendel",
+                                            "value": "25862"
+                                        },
+                                        {
+                                            "name": "Völklingen",
+                                            "value": "39374"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Sachsen",
+                                    "children": [{
+                                            "name": "Annaberg-Buchholz",
+                                            "value": "19769"
+                                        },
+                                        {
+                                            "name": "Bautzen",
+                                            "value": "38329"
+                                        },
+                                        {
+                                            "name": "Bitterfeld",
+                                            "value": "38475"
+                                        },
+                                        {
+                                            "name": "Chemnitz",
+                                            "value": "245403"
+                                        },
+                                        {
+                                            "name": "Delitzsch",
+                                            "value": "24868"
+                                        },
+                                        {
+                                            "name": "Dresden",
+                                            "value": "555805"
+                                        },
+                                        {
+                                            "name": "Freiberg",
+                                            "value": "40885"
+                                        },
+                                        {
+                                            "name": "Freital",
+                                            "value": "39709"
+                                        },
+                                        {
+                                            "name": "Görlitz",
+                                            "value": "56324"
+                                        },
+                                        {
+                                            "name": "Grimma",
+                                            "value": "28180"
+                                        },
+                                        {
+                                            "name": "Hoyerswerda",
+                                            "value": "32123"
+                                        },
+                                        {
+                                            "name": "Leipzig",
+                                            "value": "542529"
+                                        },
+                                        {
+                                            "name": "Meißen",
+                                            "value": "28044"
+                                        },
+                                        {
+                                            "name": "Pirna",
+                                            "value": "38316"
+                                        },
+                                        {
+                                            "name": "Plauen",
+                                            "value": "64931"
+                                        },
+                                        {
+                                            "name": "Radebeul",
+                                            "value": "34008"
+                                        },
+                                        {
+                                            "name": "Riesa",
+                                            "value": "30054"
+                                        },
+                                        {
+                                            "name": "Torgau",
+                                            "value": "20065"
+                                        },
+                                        {
+                                            "name": "Zittau",
+                                            "value": "25381"
+                                        },
+                                        {
+                                            "name": "Zwickau",
+                                            "value": "89540"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Sachsen-Anhalt",
+                                    "children": [{
+                                            "name": "Aschersleben",
+                                            "value": "27220"
+                                        },
+                                        {
+                                            "name": "Bernburg",
+                                            "value": "32674"
+                                        },
+                                        {
+                                            "name": "Burg",
+                                            "value": "22478"
+                                        },
+                                        {
+                                            "name": "Dessau-Roßlau",
+                                            "value": "81237"
+                                        },
+                                        {
+                                            "name": "Halberstadt",
+                                            "value": "40256"
+                                        },
+                                        {
+                                            "name": "Haldensleben",
+                                            "value": "19247"
+                                        },
+                                        {
+                                            "name": "Halle",
+                                            "value": "239257"
+                                        },
+                                        {
+                                            "name": "Köthen",
+                                            "value": "28815"
+                                        },
+                                        {
+                                            "name": "Magdeburg",
+                                            "value": "238697"
+                                        },
+                                        {
+                                            "name": "Merseburg",
+                                            "value": "34080"
+                                        },
+                                        {
+                                            "name": "Naumburg",
+                                            "value": "32402"
+                                        },
+                                        {
+                                            "name": "Salzwedel",
+                                            "value": "23655"
+                                        },
+                                        {
+                                            "name": "Sangerhausen",
+                                            "value": "26297"
+                                        },
+                                        {
+                                            "name": "Schönebeck",
+                                            "value": "30720"
+                                        },
+                                        {
+                                            "name": "Staßfurt",
+                                            "value": "25385"
+                                        },
+                                        {
+                                            "name": "Stendal",
+                                            "value": "39439"
+                                        },
+                                        {
+                                            "name": "Weißenfels",
+                                            "value": "40409"
+                                        },
+                                        {
+                                            "name": "Wernigerode",
+                                            "value": "32733"
+                                        },
+                                        {
+                                            "name": "Wittenberg",
+                                            "value": "46008"
+                                        },
+                                        {
+                                            "name": "Zeitz",
+                                            "value": "27955"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Schleswig-Holstein",
+                                    "children": [{
+                                            "name": "Ahrensburg",
+                                            "value": "33472"
+                                        },
+                                        {
+                                            "name": "Bad Oldesloe",
+                                            "value": "24744"
+                                        },
+                                        {
+                                            "name": "Bad Segeberg",
+                                            "value": "17267"
+                                        },
+                                        {
+                                            "name": "Elmshorn",
+                                            "value": "49883"
+                                        },
+                                        {
+                                            "name": "Eutin",
+                                            "value": "16971"
+                                        },
+                                        {
+                                            "name": "Flensburg",
+                                            "value": "90164"
+                                        },
+                                        {
+                                            "name": "Geesthacht",
+                                            "value": "30551"
+                                        },
+                                        {
+                                            "name": "Heide",
+                                            "value": "21684"
+                                        },
+                                        {
+                                            "name": "Husum",
+                                            "value": "23158"
+                                        },
+                                        {
+                                            "name": "Itzehoe",
+                                            "value": "31879"
+                                        },
+                                        {
+                                            "name": "Kiel",
+                                            "value": "247548"
+                                        },
+                                        {
+                                            "name": "Lübeck",
+                                            "value": "217198"
+                                        },
+                                        {
+                                            "name": "Neumünster",
+                                            "value": "79487"
+                                        },
+                                        {
+                                            "name": "Norderstedt",
+                                            "value": "79159"
+                                        },
+                                        {
+                                            "name": "Pinneberg",
+                                            "value": "43280"
+                                        },
+                                        {
+                                            "name": "Plön",
+                                            "value": "8914"
+                                        },
+                                        {
+                                            "name": "Ratzeburg",
+                                            "value": "14652"
+                                        },
+                                        {
+                                            "name": "Reinbek",
+                                            "value": "27649"
+                                        },
+                                        {
+                                            "name": "Rendsburg",
+                                            "value": "28470"
+                                        },
+                                        {
+                                            "name": "Schleswig",
+                                            "value": "25276"
+                                        },
+                                        {
+                                            "name": "Wedel",
+                                            "value": "33547"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Thüringen",
+                                    "children": [{
+                                            "name": "Altenburg",
+                                            "value": "32074"
+                                        },
+                                        {
+                                            "name": "Apolda",
+                                            "value": "22012"
+                                        },
+                                        {
+                                            "name": "Arnstadt",
+                                            "value": "27304"
+                                        },
+                                        {
+                                            "name": "Bad Salzungen",
+                                            "value": "20244"
+                                        },
+                                        {
+                                            "name": "Eisenach",
+                                            "value": "42370"
+                                        },
+                                        {
+                                            "name": "Eisenberg",
+                                            "value": "10885"
+                                        },
+                                        {
+                                            "name": "Erfurt",
+                                            "value": "203254"
+                                        },
+                                        {
+                                            "name": "Gera",
+                                            "value": "94152"
+                                        },
+                                        {
+                                            "name": "Gotha",
+                                            "value": "45733"
+                                        },
+                                        {
+                                            "name": "Greiz",
+                                            "value": "20103"
+                                        },
+                                        {
+                                            "name": "Heilbad Heiligenstadt",
+                                            "value": "17105"
+                                        },
+                                        {
+                                            "name": "Hildburghausen",
+                                            "value": "11836"
+                                        },
+                                        {
+                                            "name": "Ilmenau",
+                                            "value": "39017"
+                                        },
+                                        {
+                                            "name": "Jena",
+                                            "value": "111407"
+                                        },
+                                        {
+                                            "name": "Meiningen",
+                                            "value": "24233"
+                                        },
+                                        {
+                                            "name": "Mühlhausen",
+                                            "value": "36200"
+                                        },
+                                        {
+                                            "name": "Nordhausen",
+                                            "value": "41791"
+                                        },
+                                        {
+                                            "name": "Rudolstadt",
+                                            "value": "25115"
+                                        },
+                                        {
+                                            "name": "Saalfeld",
+                                            "value": "29457"
+                                        },
+                                        {
+                                            "name": "Schleiz",
+                                            "value": "8854"
+                                        },
+                                        {
+                                            "name": "Sömmerda",
+                                            "value": "19034"
+                                        },
+                                        {
+                                            "name": "Sondershausen",
+                                            "value": "21513"
+                                        },
+                                        {
+                                            "name": "Sonneberg",
+                                            "value": "23830"
+                                        },
+                                        {
+                                            "name": "Suhl",
+                                            "value": "36955"
+                                        },
+                                        {
+                                            "name": "Weimar",
+                                            "value": "65090"
+                                        }
+                                    ]
+                                }
+                            ]
+
+
+                        },
+                        {
+                            "name": "Luxembourg",
+                            "value": 635000
+                        },
+                        {
+                            "name": "Netherlands",
+                            "value": 17173000
+                        },
+                        {
+                            "name": "Switzerland",
+                            "value": 8715000
+                        }
+
+                    ]
+                },
+                {
+                    "name": "Southern Europe",
+                    "children": [{
+                            "name": "Albania",
+                            "value": 2873000
+                        },
+                        {
+                            "name": "Bosnia and Herzegovina",
+                            "value": 3263000
+                        },
+                        {
+                            "name": "Croatia",
+                            "value": 4082000
+                        },
+                        {
+                            "name": "Greece",
+                            "value": 10371000
+                        },
+                        {
+                            "name": "Italy",
+                            "value": 60367000
+                        },
+                        {
+                            "name": "Malta",
+                            "value": 443000
+                        },
+                        {
+                            "name": "Montenegro",
+                            "value": 628000
+                        },
+                        {
+                            "name": "North Macedonia",
+                            "value": 2083000
+                        },
+                        {
+                            "name": "Portugal",
+                            "value": 10168000
+                        },
+                        {
+                            "name": "Serbia",
+                            "value": 8698000
+                        },
+                        {
+                            "name": "Spain",
+                            "value": 46745000
+                        },
+                        {
+                            "name": "Slovenia",
+                            "value": 2079000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Asia",
+            "children": [{
+                    "name": "Eastern Asia",
+                    "children": [{
+                            "name": "China",
+                            "value": 1444216000
+                        },
+                        {
+                            "name": "Hong Kong",
+                            "value": 7553000
+                        },
+                        {
+                            "name": "Macao",
+                            "value": 658000
+                        },
+                        {
+                            "name": "Northern Korea",
+                            "value": 25887000
+                        },
+                        {
+                            "name": "Japan",
+                            "value": 126051000
+                        },
+                        {
+                            "name": "Mongolia",
+                            "value": 3329000
+                        },
+                        {
+                            "name": "South Koea",
+                            "value": 51305000
+                        },
+                        {
+                            "name": "Taiwan",
+                            "value": 23855000
+                        }
+                    ]
+                },
+                {
+                    "name": "South-central Asia",
+                    "children": [{
+                            "name": "Afghanistan",
+                            "value": 39835000
+                        },
+                        {
+                            "name": "Bangladesh",
+                            "value": 166303000
+                        },
+                        {
+                            "name": "Bhutan",
+                            "value": 780000
+                        },
+                        {
+                            "name": "India",
+                            "value": 1393409000
+                        },
+                        {
+                            "name": "Iran",
+                            "value": 85029000
+                        },
+                        {
+                            "name": "Kazakhstan",
+                            "value": 18995000
+                        },
+                        {
+                            "name": "Kyrgyzstan",
+                            "value": 6628000
+                        },
+                        {
+                            "name": "Maldives",
+                            "value": 544000
+                        },
+                        {
+                            "name": "Nepal",
+                            "value": 29675000
+                        },
+                        {
+                            "name": "Pakistan",
+                            "value": 225200000
+                        },
+                        {
+                            "name": "Sri Lanka",
+                            "value": 21497000
+                        },
+                        {
+                            "name": "Tajikistan",
+                            "value": 9750000
+                        },
+                        {
+                            "name": "Turkmenistan",
+                            "value": 6118000
+                        },
+                        {
+                            "name": "Uzbekistan",
+                            "value": 33936000
+                        }
+                    ]
+                },
+                {
+                    "name": "South-eastern Asia",
+                    "children": [{
+                            "name": "Brunei Darussalam",
+                            "value": 442000
+                        },
+                        {
+                            "name": "Cambodia",
+                            "value": 16946000
+                        },
+                        {
+                            "name": "Lao People's Democratic Republic",
+                            "value": 7379000
+                        },
+                        {
+                            "name": "Malaysia",
+                            "value": 32776000
+                        },
+                        {
+                            "name": "Myanmar",
+                            "value": 54806000
+                        },
+                        {
+                            "name": "Philippines",
+                            "value": 111047000
+                        },
+                        {
+                            "name": "Singapore",
+                            "value": 5897000
+                        },
+                        {
+                            "name": "Thailand",
+                            "value": 69951000
+                        },
+                        {
+                            "name": "Timor-Leste",
+                            "value": 1344000
+                        },
+                        {
+                            "name": "Viet Nam",
+                            "value": 98169000
+                        }
+                    ]
+                },
+                {
+                    "name": "Western Asia",
+                    "children": [{
+                            "name": "Armenia",
+                            "value": 296800
+                        },
+                        {
+                            "name": "Bahrain",
+                            "value": 1748000
+                        },
+                        {
+                            "name": "Cyprus",
+                            "value": 1216000
+                        },
+                        {
+                            "name": "Georgia",
+                            "value": 3980000
+                        },
+                        {
+                            "name": "Iraq",
+                            "value": 41179000
+                        },
+                        {
+                            "name": "Israel",
+                            "value": 8790000
+                        },
+                        {
+                            "name": "Jordan",
+                            "value": 10269000
+                        },
+                        {
+                            "name": "Kuwait",
+                            "value": 4329000
+                        },
+                        {
+                            "name": "Lebanon",
+                            "value": 6769000
+                        },
+                        {
+                            "name": "Oman",
+                            "value": 6769000
+                        },
+                        {
+                            "name": "Palestine",
+                            "value": 5223000
+                        },
+                        {
+                            "name": "Qatar",
+                            "value": 2931000
+                        },
+                        {
+                            "name": "Saudi Arabia",
+                            "value": 35341000
+                        },
+                        {
+                            "name": "Syrian Arab Republic",
+                            "value": 18276000
+                        },
+                        {
+                            "name": "Turkey",
+                            "value": 85043000
+                        },
+                        {
+                            "name": "United Arab Emirates",
+                            "value": 9991000
+                        },
+                        {
+                            "name": "Yemen",
+                            "value": 30491000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Africa",
+            "children": [{
+                    "name": "Eastern Asia",
+                    "children": [{
+                            "name": "Burundi",
+                            "value": 12255000
+                        },
+                        {
+                            "name": "Comoros",
+                            "value": 888000
+                        },
+                        {
+                            "name": "Djibouti",
+                            "value": 1002000
+                        },
+                        {
+                            "name": "Eritrea",
+                            "value": 3601000
+                        },
+                        {
+                            "name": "Ethiopia",
+                            "value": 117876000
+                        },
+                        {
+                            "name": "Kenya",
+                            "value": 54986000
+                        },
+                        {
+                            "name": "Madagascar",
+                            "value": 28427000
+                        },
+                        {
+                            "name": "Malawi",
+                            "value": 19648000
+                        },
+                        {
+                            "name": "Mauritius",
+                            "value": 1273000
+                        },
+                        {
+                            "name": "Mayotte",
+                            "value": 280000
+                        },
+                        {
+                            "name": "Mozambique",
+                            "value": 32163000
+                        },
+                        {
+                            "name": "Réunion",
+                            "value": 902000
+                        },
+                        {
+                            "name": "Rwanda",
+                            "value": 13277000
+                        },
+                        {
+                            "name": "Saychelles",
+                            "value": 99000
+                        },
+                        {
+                            "name": "Somalia",
+                            "value": 16360000
+                        },
+                        {
+                            "name": "South Sudan",
+                            "value": 11381000
+                        },
+                        {
+                            "name": "Uganda",
+                            "value": 47124000
+                        },
+                        {
+                            "name": "United Republic of Tanzania",
+                            "value": 61498000
+                        },
+                        {
+                            "name": "Zambia",
+                            "value": 18921000
+                        },
+                        {
+                            "name": "Zimbabwe",
+                            "value": 15092000
+                        }
+                    ]
+                },
+                {
+                    "name": "Middle Africa",
+                    "children": [{
+                            "name": "Angola",
+                            "value": 33934000
+                        },
+                        {
+                            "name": "Comeroon",
+                            "value": 27224000
+                        },
+                        {
+                            "name": "Central African Republic",
+                            "value": 4920000
+                        },
+                        {
+                            "name": "Chad",
+                            "value": 16915000
+                        },
+                        {
+                            "name": "Congo",
+                            "value": 5657000
+                        },
+                        {
+                            "name": "Democratic Republic of the Congo",
+                            "value": 92378000
+                        },
+                        {
+                            "name": "Equatorial Guinea",
+                            "value": 1450000
+                        },
+                        {
+                            "name": "Gabon",
+                            "value": 2279000
+                        },
+                        {
+                            "name": "Sao Tome and Principe",
+                            "value": 223000
+                        }
+
+
+                    ]
+                },
+                {
+                    "name": "Nothern Africa",
+                    "children": [{
+                            "name": "Algeria",
+                            "value": 44617000
+                        },
+                        {
+                            "name": "Egypt",
+                            "value": 104258000
+                        },
+                        {
+                            "name": "Libyan Arab Jamahiriya",
+                            "value": 6959000
+                        },
+                        {
+                            "name": "Morocco",
+                            "value": 37345000
+                        },
+                        {
+                            "name": "Sudan",
+                            "value": 44909000
+                        },
+                        {
+                            "name": "Tunisia",
+                            "value": 11936000
+                        },
+                        {
+                            "name": "Western Sahara",
+                            "value": 612000
+                        }
+                    ]
+                },
+                {
+                    "name": "Southern Africa",
+                    "children": [{
+                            "name": "Botswana",
+                            "value": 2397000
+                        },
+                        {
+                            "name": "Eswatini",
+                            "value": 1172000
+                        },
+                        {
+                            "name": "Lesotho",
+                            "value": 2195000
+                        },
+                        {
+                            "name": "Namibia",
+                            "value": 2587000
+                        },
+                        {
+                            "name": "South Africa",
+                            "value": 60358000
+                        }
+                    ]
+                },
+                {
+                    "name": "Western Afica",
+                    "children": [{
+                            "name": "Benin",
+                            "value": 12451000
+                        },
+                        {
+                            "name": "Burkina Faso",
+                            "value": 21497000
+                        },
+                        {
+                            "name": "Cape Verde",
+                            "value": 562000
+                        },
+                        {
+                            "name": "Côte d'Ivoire",
+                            "value": 27054
+                        },
+                        {
+                            "name": "Gambia",
+                            "value": 2487000
+                        },
+                        {
+                            "name": "Ghana",
+                            "value": 31732000
+                        },
+                        {
+                            "name": "Guinea",
+                            "value": 13497000
+                        },
+                        {
+                            "name": "Guinea-Bissau",
+                            "value": 2015000
+                        },
+                        {
+                            "name": "Liberia",
+                            "value": 5180000
+                        },
+                        {
+                            "name": "Mali",
+                            "value": 20856000
+                        },
+                        {
+                            "name": "Mauritania",
+                            "value": 4775000
+                        },
+                        {
+                            "name": "Niger",
+                            "value": 25131000
+                        },
+                        {
+                            "name": "Nigeria",
+                            "value": 211401
+                        },
+                        {
+                            "name": "Senegal",
+                            "value": 17196000
+                        },
+                        {
+                            "name": "Sierra Leone",
+                            "value": 8141000
+                        },
+                        {
+                            "name": "Togo",
+                            "value": 8478000
+                        }
+                    ]
+
+                }
+            ]
+        },
+        {
+            "name": "Northern America",
+            "children": [{
+                    "name": "Canada",
+                    "value": 38068000
+                },
+                {
+                    "name": "United States of America",
+                    "value": 332915000
+                }
+            ]
+        },
+        {
+            "name": "Latin America and the Caribbean",
+            "children": [{
+                    "name": "Caribbean",
+                    "children": [{
+                            "name": "Antigua and Barbuda",
+                            "value": 99000
+                        },
+                        {
+                            "name": "Aruba",
+                            "value": 107000
+                        },
+                        {
+                            "name": "Bahamas",
+                            "value": 397000
+                        },
+                        {
+                            "name": "Barbados",
+                            "value": 397000
+                        },
+                        {
+                            "name": "Bahamas",
+                            "value": 288000
+                        },
+                        {
+                            "name": "Cuba",
+                            "value": 11318000
+                        },
+                        {
+                            "name": "Curacao",
+                            "value": 165000
+                        },
+                        {
+                            "name": "Dominican Republic",
+                            "value": 10954000
+                        },
+                        {
+                            "name": "Grenada",
+                            "value": 113000
+                        },
+                        {
+                            "name": "Guadeloupe",
+                            "value": 400000
+                        },
+                        {
+                            "name": "Haiti",
+                            "value": 11542000
+                        },
+                        {
+                            "name": "Jamaica",
+                            "value": 2973000
+                        },
+                        {
+                            "name": "Martinique",
+                            "value": 375000
+                        },
+                        {
+                            "name": "Puerto Rico",
+                            "value": 2828000
+                        },
+                        {
+                            "name": "Saint Lucia",
+                            "value": 184000
+                        },
+                        {
+                            "name": "Puerto Rico",
+                            "value": 2828000
+                        },
+                        {
+                            "name": "Saint Vincent and the Grenadines",
+                            "value": 111000
+                        },
+                        {
+                            "name": "Trinidad and Tobago",
+                            "value": 1403000
+                        },
+                        {
+                            "name": "United States Virgin Islands",
+                            "value": 104000
+                        }
+                    ]
+
+
+                },
+                {
+                    "name": "Central America",
+                    "children": [{
+                            "name": "Antigua and Barbuda",
+                            "value": 99000
+                        },
+                        {
+                            "name": "Aruba",
+                            "value": 107000
+                        },
+                        {
+                            "name": "Bahamas",
+                            "value": 397000
+                        },
+                        {
+                            "name": "Barbados",
+                            "value": 288000
+                        },
+                        {
+                            "name": "Cuba",
+                            "value": 11318000
+                        },
+                        {
+                            "name": "Curacao",
+                            "value": 165000
+                        },
+                        {
+                            "name": "Dominican Republic",
+                            "value": 10954000
+                        },
+                        {
+                            "name": "Grenada",
+                            "value": 113000
+                        },
+                        {
+                            "name": "Guadeluou",
+                            "value": 400000
+                        },
+                        {
+                            "name": "Haiti",
+                            "value": 11542000
+                        },
+                        {
+                            "name": "Jamaica",
+                            "value": 2973000
+                        },
+                        {
+                            "name": "Martinique",
+                            "value": 375000
+                        },
+                        {
+                            "name": "Puerto Rico",
+                            "value": 2828000
+                        },
+                        {
+                            "name": "Saint Lucia",
+                            "value": 184000
+                        },
+                        {
+                            "name": "Saint Vincent and the Grenadines",
+                            "value": 111000
+                        },
+                        {
+                            "name": "Trinidad and Tobago",
+                            "value": 1403000
+                        },
+                        {
+                            "name": "United States Virgin Islands",
+                            "value": 104000
+                        }
+
+                    ]
+
+                },
+                {
+                    "name": "South America",
+                    "children": [{
+                            "name": "Argentina",
+                            "value": 45606000
+                        },
+                        {
+                            "name": "Bolivia",
+                            "value": 11833000
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": 213993000
+                        },
+                        {
+                            "name": "Chile",
+                            "value": 19212000
+                        },
+                        {
+                            "name": "Colombia",
+                            "value": 5126600
+                        },
+                        {
+                            "name": "Ecuador",
+                            "value": 17888000
+                        },
+                        {
+                            "name": "French Guiana",
+                            "value": 30600
+                        },
+                        {
+                            "name": "Guyana",
+                            "value": 790000
+                        },
+                        {
+                            "name": "Paraguay",
+                            "value": 7110000
+                        },
+                        {
+                            "name": "Peru",
+                            "value": 33359000
+                        },
+                        {
+                            "name": "Suriname",
+                            "value": 592000
+                        },
+                        {
+                            "name": "Uruguay",
+                            "value": 3485000
+                        },
+                        {
+                            "name": "Venezuela",
+                            "value": 28705000
+                        }
+                    ]
+
+                }
+            ]
+        },
+        {
+            "name": "Oceania",
+            "children": [{
+                    "name": "Australia/New Zealand",
+                    "children": [{
+                            "name": "Australia",
+                            "value": 25788000
+                        },
+                        {
+                            "name": "New Zealand",
+                            "value": 4861000
+                        }
+
+                    ]
+                },
+                {
+                    "name": "Melanesia",
+                    "children": [{
+                            "name": "Fiji",
+                            "value": 903000
+                        },
+                        {
+                            "name": "New Caledonia",
+                            "value": 288000
+                        },
+                        {
+                            "name": "Papua New Guinea",
+                            "value": 9119000
+                        },
+                        {
+                            "name": "Solomon Islands",
+                            "value": 704000
+                        },
+                        {
+                            "name": "Vanuatu",
+                            "value": 314000
+                        }
+                    ]
+                },
+                {
+                    "name": "Polynesia",
+                    "children": [{
+                            "name": "French Polynesia",
+                            "value": "283000"
+                        },
+                        {
+                            "name": "Samoa",
+                            "value": "200000"
+                        },
+                        {
+                            "name": "Tonga",
+                            "value": "107000"
+                        }
+                    ]
+
+                },
+                {
+                    "name": "Micronesia",
+                    "children": [{
+                            "name": "Guam",
+                            "value": 170000
+                        },
+                        {
+                            "name": "Kiribati",
+                            "value": 121000
+                        },
+                        {
+                            "name": " Federated States of Micronesia",
+                            "value": 116000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

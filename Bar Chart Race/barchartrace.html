@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.js"></script>
+    <script src="./barchart.js" defer></script>
+    <title>Bar Chart Race Test</title>
+    <style>
+      * {
+        background: rgb(39, 39, 39);
+        color: rgb(255, 255, 255);
+      }
+      .label {
+        right: 200px;
+        top: 400px;
+        /* fill: white; */
+        font-size: 5em;
+      }
+    </style>
+</head>
+
+<body>
+  <div class="top">
+    <h1 style="text-align: center;">Bar Chart Race</h1>
+    <div style="display: flex; justify-content: center;">
+      <button style="cursor: pointer; margin-right: 1em" id="btn-start">Start</button>
+      <select name="dates" id="dateDropdown"></select>
+    </div>
+  </div>
+  <h2 id="yearLabel"></h2>
+  <!-- <button id="btn" class="btn">Reset</button> -->
+  
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- <script src="./script.js" defer></script> -->
+    <script src="./script.js" defer></script>
+    <title>Chronology</title>
+</head>
+<body>
+    <h1>CHRONOLOGY</h1>
+    <link rel="stylesheet" href="style.css">
+    <div id="my_dataviz"></div>
+</body>
+</html>
+<style>
+    body {
+    color: white;
+    font-family: "American Typewriter", Geneva, Tahoma, sans;
+    overflow: hidden;
+    background: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    font-family: "American Typewriter", Geneva, Tahoma, sans;
+}
+
+text {
+    z-index: 100;
+    color: white;
+}
+
+svg {
+    margin-left: 1em;
+}
+
+.tooltip {
+    position: absolute;
+}
+
+.tooltipBox {
+    background: #c6c7c7;
+    color: #313131;
+    display: flex;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.innerText {
+    width: 50%;
+    background-color: whitesmoke;
+    opacity: .6;
+    padding: 5px;
+    color: black;
+    margin: 1em;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+}
+
+.none {
+    display: none;
+    user-select: none;
+}
+
+.show {
+    display: block;
+}
+</style>
