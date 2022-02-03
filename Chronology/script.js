@@ -128,7 +128,7 @@ d3.json("./data/germanHistory.json").then((data) => {
 
       getMeta(imageUrl);
       
-      if (imageUrl === '') {
+      if (imageUrl === '' || imageUrl === undefined) {
         tooltip.html(
             "<div class='tooltipBox' style='height:40vw;width:40vh;background-image: url(" + imageUrl + "); background-position: center;background-repeat: no-repeat;background-size: cover; height:" + 600 + "px; width:" + 600 + "px; '>" +
             "<div class='innerText' style='width: 100%'>" +
